@@ -3,38 +3,130 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>大理酒店房源实时统计</title>
+<title>酒店房源实时统计</title>
 <style>
-*{box-sizing:border-box}
-body{margin:0;padding:15px;background:#f5f7fa;font-family:PingFang SC,Microsoft YaHei,sans-serif;max-width:800px;margin:auto}
-.header{text-align:center;padding:15px 0 10px}
-.title{font-size:20px;margin:0 0 6px 0}
-.time{color:#888;font-size:14px}
-.sum-card{background:#fff;border-radius:12px;padding:14px 18px;margin:15px 0;text-align:center;font-size:17px;color:#06f;font-weight:bold}
-.card{background:#fff;border-radius:12px;padding:16px;margin-bottom:12px;box-shadow:0 2px 8px rgba(0,0,0,0.05)}
-.card h3{margin:0 0 8px 0;font-size:16px}
-.card .info{color:#666;font-size:14px;margin-bottom:8px}
-.card .room{font-size:14px;padding:4px 0}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: #f2f4f7;
+  padding: 20px 15px;
+  color: #333;
+}
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.header h1 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 6px;
+}
+.time {
+  font-size: 13px;
+  color: #999;
+}
+.total-box {
+  background: linear-gradient(135deg, #409eff, #67b6ff);
+  color: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 24px;
+  box-shadow: 0 6px 20px rgba(64, 158, 255, 0.25);
+}
+.total-box .label {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-bottom: 4px;
+}
+.total-box .num {
+  font-size: 32px;
+  font-weight: 700;
+}
+.hotel-item {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+.hotel-item .name {
+  font-size: 17px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 6px;
+}
+.hotel-item .meta {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 14px;
+}
+.room-list {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 14px;
+}
+.room-item {
+  font-size: 14px;
+  color: #555;
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+}
+.room-item::before {
+  content: "•";
+  color: #409eff;
+  font-weight: bold;
+  margin-right: 8px;
+}
+.empty {
+  text-align: center;
+  padding: 30px 0;
+  color: #999;
+}
 </style>
 </head>
+
 <body>
-<div class="header">
-<div class="title">🏨 大理酒店房源实时统计</div>
-<div class="time">2026/3/9 22:00:14</div>
-</div>
-<div class="sum-card">✅ 可订总房量：20 间</div>
+<div class="container">
+  <div class="header">
+    <h1>🏨 大理酒店房源实时统计</h1>
+    <div class="time">更新时间：2026/3/9 22:03:28</div>
+  </div>
 
-<div class="card">
-<h3>大理新棕榈客栈</h3>
-<div class="info">ID：468916｜剩余：6 间</div>
-<div class="room">• 仅剩2间</div><div class="room">• 仅剩2间</div><div class="room">• 仅剩1间</div><div class="room">• 仅剩1间</div>
-</div>
+  <div class="total-box">
+    <div class="label">当前可预订总房量</div>
+    <div class="num">20</div>
+  </div>
 
-<div class="card">
-<h3>大理古城青青客栈</h3>
-<div class="info">ID：841412｜剩余：14 间</div>
-<div class="room">• 仅剩1间</div><div class="room">• 仅剩3间</div><div class="room">• 仅剩1间</div><div class="room">• 仅剩1间</div><div class="room">• 仅剩2间</div><div class="room">• 仅剩3间</div><div class="room">• 仅剩1间</div><div class="room">• 仅剩1间</div><div class="room">• 仅剩1间</div>
-</div>
+  
 
+  
+  <div class="hotel-item">
+    <div class="name">大理新棕榈客栈</div>
+    <div class="meta">酒店ID：468916｜剩余可订：6 间</div>
+    <div class="room-list">
+      <div class="room-item">仅剩2间</div><div class="room-item">仅剩2间</div><div class="room-item">仅剩1间</div><div class="room-item">仅剩1间</div>
+    </div>
+  </div>
+  
+  <div class="hotel-item">
+    <div class="name">大理古城青青客栈</div>
+    <div class="meta">酒店ID：841412｜剩余可订：14 间</div>
+    <div class="room-list">
+      <div class="room-item">仅剩1间</div><div class="room-item">仅剩3间</div><div class="room-item">仅剩1间</div><div class="room-item">仅剩1间</div><div class="room-item">仅剩2间</div><div class="room-item">仅剩3间</div><div class="room-item">仅剩1间</div><div class="room-item">仅剩1间</div><div class="room-item">仅剩1间</div>
+    </div>
+  </div>
+  
+
+</div>
 </body>
 </html>
