@@ -1,0 +1,106 @@
+{
+  "lastUpdate": "2026-03-10 19:20:21",
+  "summary": {
+    "totalHotels": 2,
+    "availableHotels": 2,
+    "totalRooms": 14,
+    "totalStock": 7,
+    "avgPrice": 240
+  },
+  "hotels": [
+    {
+      "id": "14678981",
+      "name": "麓引全LUYANGTREE·莱安海景度假美宿(大理洱海店)",
+      "rating": 4.5,
+      "rooms": 7,
+      "availableRooms": 6,
+      "totalStock": 6,
+      "priceRange": "168-405",
+      "avgPrice": 256,
+      "roomDetails": [
+        {
+          "name": "Mini双床房",
+          "price": 168,
+          "stock": 1
+        },
+        {
+          "name": "安若双床房",
+          "price": 172,
+          "stock": 1
+        },
+        {
+          "name": "安若大床房",
+          "price": 221,
+          "stock": 1
+        },
+        {
+          "name": "安和双床房",
+          "price": 250,
+          "stock": 1
+        },
+        {
+          "name": "安邑三人房",
+          "price": 337,
+          "stock": 1
+        },
+        {
+          "name": "安麓家庭套房",
+          "price": 405,
+          "stock": 1
+        },
+        {
+          "name": "安遇大床房",
+          "price": 239,
+          "stock": 0
+        }
+      ]
+    },
+    {
+      "id": "29124471",
+      "name": "桔朵智能酒店(大理高铁站洱海公园店)",
+      "rating": 4.5,
+      "rooms": 7,
+      "availableRooms": 1,
+      "totalStock": 1,
+      "priceRange": "131-320",
+      "avgPrice": 223,
+      "roomDetails": [
+        {
+          "name": "云伶·投影双床房|记忆枕+智能客控+智能马桶+干湿分离",
+          "price": 131,
+          "stock": 1
+        },
+        {
+          "name": "云伶·投影大床房|记忆枕+智能客控+智能马桶+干湿分离",
+          "price": 176,
+          "stock": 0
+        },
+        {
+          "name": "零压·智能百寸投影双床房|记忆枕+智能马桶+干湿分离",
+          "price": 198,
+          "stock": 0
+        },
+        {
+          "name": "零压·智能百寸投影大床房|记忆枕+智能马桶+干湿分离",
+          "price": 198,
+          "stock": 0
+        },
+        {
+          "name": "四人家庭·智能百寸双大床|记忆枕+智能马桶+干湿分离",
+          "price": 254,
+          "stock": 0
+        },
+        {
+          "name": "两室零压·智能百寸投影家庭房|零压记忆枕+智能马桶",
+          "price": 287,
+          "stock": 0
+        },
+        {
+          "name": "三床四人·智能百寸投影房|记忆枕+智能马桶+干湿分离",
+          "price": 320,
+          "stock": 0
+        }
+      ]
+    }
+  ]
+}
