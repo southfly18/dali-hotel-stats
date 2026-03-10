@@ -528,7 +528,7 @@
         // 渲染单个酒店卡片
         function renderHotelCard(hotel) {
             const isExpanded = expandedCards.has(hotel.id);
-            const stockPercentage = (hotel.totalStock / (hotel.rooms * 5)) * 100; // 假设最大库存是房型的5倍
+            const stockPercentage = (hotel.totalStock / (hotel.rooms * 3)) * 100; // 假设最大库存是房型的5倍
             
             return `
                 <div class="hotel-card">
@@ -568,7 +568,7 @@
                         <div class="stock-fill" style="width: ${Math.min(stockPercentage, 100)}%"></div>
                     </div>
                     
-                    ${isExpanded ? renderRoomList(hotel.rooms) : ''}
+                    ${isExpanded ? renderRoomList(hotel.roomDetails) : ''}
                     
                     <button class="toggle-details" id="toggle-${hotel.id}">
                         ${isExpanded ? '▲ 收起房型' : '▼ 查看房型'}
