@@ -1,126 +1,28 @@
 {
-  "lastUpdate": "2026-03-10 19:47:47",
+  "lastUpdate": "2026-3-10 22:49:14",
+  "nextUpdate": "1970-1-1 08:00:00",
   "summary": {
-    "totalHotels": 10,
-    "availableHotels": 9,
-    "totalRooms": 83,
-    "totalStock": 58,
-    "avgPrice": 315
+    "totalHotels": 8,
+    "availableHotels": 7,
+    "totalRooms": 69,
+    "totalStock": 47,
+    "avgPrice": 335
   },
   "hotels": [
-    {
-      "id": "14678981",
-      "name": "麓引全LUYANGTREE·莱安海景度假美宿(大理洱海店)",
-      "rating": 4.5,
-      "rooms": 7,
-      "availableRooms": 6,
-      "totalStock": 6,
-      "priceRange": "168-405",
-      "avgPrice": 256,
-      "roomDetails": [
-        {
-          "name": "Mini双床房",
-          "price": 168,
-          "stock": 1
-        },
-        {
-          "name": "安若双床房",
-          "price": 172,
-          "stock": 1
-        },
-        {
-          "name": "安若大床房",
-          "price": 221,
-          "stock": 1
-        },
-        {
-          "name": "安和双床房",
-          "price": 250,
-          "stock": 1
-        },
-        {
-          "name": "安邑三人房",
-          "price": 337,
-          "stock": 1
-        },
-        {
-          "name": "安麓家庭套房",
-          "price": 405,
-          "stock": 1
-        },
-        {
-          "name": "安遇大床房",
-          "price": 239,
-          "stock": 0
-        }
-      ]
-    },
-    {
-      "id": "29124471",
-      "name": "桔朵智能酒店(大理高铁站洱海公园店)",
-      "rating": 4.5,
-      "rooms": 7,
-      "availableRooms": 1,
-      "totalStock": 1,
-      "priceRange": "131-320",
-      "avgPrice": 223,
-      "roomDetails": [
-        {
-          "name": "云伶·投影双床房|记忆枕+智能客控+智能马桶+干湿分离",
-          "price": 131,
-          "stock": 1
-        },
-        {
-          "name": "云伶·投影大床房|记忆枕+智能客控+智能马桶+干湿分离",
-          "price": 176,
-          "stock": 0
-        },
-        {
-          "name": "零压·智能百寸投影双床房|记忆枕+智能马桶+干湿分离",
-          "price": 198,
-          "stock": 0
-        },
-        {
-          "name": "零压·智能百寸投影大床房|记忆枕+智能马桶+干湿分离",
-          "price": 198,
-          "stock": 0
-        },
-        {
-          "name": "四人家庭·智能百寸双大床|记忆枕+智能马桶+干湿分离",
-          "price": 254,
-          "stock": 0
-        },
-        {
-          "name": "两室零压·智能百寸投影家庭房|零压记忆枕+智能马桶",
-          "price": 287,
-          "stock": 0
-        },
-        {
-          "name": "三床四人·智能百寸投影房|记忆枕+智能马桶+干湿分离",
-          "price": 320,
-          "stock": 0
-        }
-      ]
-    },
     {
       "id": "02505016",
       "name": "大理新棕榈客栈",
       "rating": 4.5,
       "rooms": 9,
-      "availableRooms": 6,
-      "totalStock": 12,
-      "priceRange": "150-440",
-      "avgPrice": 266,
+      "availableRooms": 5,
+      "totalStock": 10,
+      "priceRange": "159-440",
+      "avgPrice": 267,
       "roomDetails": [
-        {
-          "name": "庭院大床房",
-          "price": 150,
-          "stock": 1
-        },
         {
           "name": "庭院双床房",
           "price": 169,
-          "stock": 3
+          "stock": 2
         },
         {
           "name": "精致双床房",
@@ -148,6 +50,11 @@
           "stock": 1
         },
         {
+          "name": "庭院大床房",
+          "price": 159,
+          "stock": 0
+        },
+        {
           "name": "雅致大床房",
           "price": 229,
           "stock": 0
@@ -164,18 +71,13 @@
       "name": "大理静享.如水荷院",
       "rating": 4.5,
       "rooms": 8,
-      "availableRooms": 4,
-      "totalStock": 4,
-      "priceRange": "208-323",
-      "avgPrice": 268,
+      "availableRooms": 3,
+      "totalStock": 3,
+      "priceRange": "219-323",
+      "avgPrice": 283,
       "roomDetails": [
         {
           "name": "湛露庭院双床房",
-          "price": 208,
-          "stock": 1
-        },
-        {
-          "name": "桃夭之浪漫庭院景观蜜月情侣房",
           "price": 219,
           "stock": 1
         },
@@ -197,6 +99,11 @@
         {
           "name": "蒹葭大床房",
           "price": 303,
+          "stock": 0
+        },
+        {
+          "name": "桃夭之浪漫庭院景观蜜月情侣房",
+          "price": 323,
           "stock": 0
         },
         {
@@ -377,29 +284,29 @@
       "name": "大理影月客栈(古城店)",
       "rating": 4.5,
       "rooms": 7,
-      "availableRooms": 4,
-      "totalStock": 6,
-      "priceRange": "183-304",
-      "avgPrice": 243,
+      "availableRooms": 3,
+      "totalStock": 5,
+      "priceRange": "187-304",
+      "avgPrice": 247,
       "roomDetails": [
         {
+          "name": "精选大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
+          "price": 187,
+          "stock": 0
+        },
+        {
           "name": "治愈阳光大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-          "price": 183,
+          "price": 189,
           "stock": 3
         },
         {
-          "name": "精选大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-          "price": 183,
-          "stock": 1
-        },
-        {
           "name": "阳光舒适双床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-          "price": 234,
+          "price": 242,
           "stock": 1
         },
         {
           "name": "暖阳豪华大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-          "price": 252,
+          "price": 261,
           "stock": 1
         },
         {
@@ -478,27 +385,27 @@
       "rooms": 12,
       "availableRooms": 4,
       "totalStock": 4,
-      "priceRange": "576-1934",
-      "avgPrice": 1089,
+      "priceRange": "566-1934",
+      "avgPrice": 1085,
       "roomDetails": [
         {
           "name": "如舍·静谧大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
-          "price": 576,
+          "price": 566,
           "stock": 1
         },
         {
           "name": "竹畔·庭院大床房【私汤泡池+巨幕投影+马歇尔音响】",
-          "price": 673,
+          "price": 662,
           "stock": 1
         },
         {
           "name": "知丘·庭院大床房【轻奢浴缸+观影巨幕+竹林景观】",
-          "price": 723,
+          "price": 711,
           "stock": 1
         },
         {
           "name": "亦时书·揽月套房【私享客厅+揽境浴缸+观影巨幕】",
-          "price": 801,
+          "price": 787,
           "stock": 1
         },
         {
