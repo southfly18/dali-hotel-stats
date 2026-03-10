@@ -408,6 +408,7 @@
         </div>
     </div>
 
+    <script src="https://unpkg.com/dayjs"></script>
     <script>
         // 配置
         const CONFIG = {
@@ -455,16 +456,8 @@
             const el = document.getElementById('updateTime');
             if (!el) return;
             
-            const date = new Date(timeStr);
-            const formatted = date.toLocaleString('zh-CN', {
-                year: 'numeric',
-                month: '2-digit',
-                day: '2-digit',
-                hour: '2-digit',
-                minute: '2-digit',
-                second: '2-digit',
-                hour12: false
-            });
+            const date = dayjs(timeStr, 'YYYY-M-D H:mm:ss');
+            const formatted = date.format('YYYY/MM/DD HH:mm:ss');;
             
             el.innerHTML = `
                 <span class="dot"></span>
@@ -528,7 +521,7 @@
         // 渲染单个酒店卡片
         function renderHotelCard(hotel) {
             const isExpanded = expandedCards.has(hotel.id);
-            const stockPercentage = (hotel.totalStock / (hotel.rooms * 3)) * 100; // 假设最大库存是房型的5倍
+            const stockPercentage = (hotel.availableRooms / hotel.rooms) * 100; // 假设最大库存是房型的5倍
             
             return `
                 <div class="hotel-card">
