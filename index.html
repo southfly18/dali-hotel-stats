@@ -1,140 +1,631 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>酒店房源实时统计</title>
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  background: #f2f4f7;
-  padding: 20px 15px;
-  color: #333;
-}
-.container {
-  max-width: 700px;
-  margin: 0 auto;
-}
-.header {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.header h1 {
-  font-size: 22px;
-  font-weight: 600;
-  color: #111;
-  margin-bottom: 6px;
-}
-.time {
-  font-size: 13px;
-  color: #999;
-}
-.total-box {
-  background: linear-gradient(135deg, #409eff, #67b6ff);
-  color: #fff;
-  border-radius: 16px;
-  padding: 20px;
-  text-align: center;
-  margin-bottom: 24px;
-  box-shadow: 0 6px 20px rgba(64, 158, 255, 0.25);
-}
-.total-box .label {
-  font-size: 14px;
-  opacity: 0.9;
-  margin-bottom: 4px;
-}
-.total-box .num {
-  font-size: 32px;
-  font-weight: 700;
-}
-.hotel-item {
-  background: #fff;
-  border-radius: 16px;
-  padding: 20px;
-  margin-bottom: 14px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
-}
-.hotel-item .name {
-  font-size: 17px;
-  font-weight: 600;
-  color: #222;
-  margin-bottom: 6px;
-}
-.hotel-item .meta {
-  font-size: 13px;
-  color: #999;
-  margin-bottom: 14px;
-}
-.room-list {
-  border-top: 1px solid #f0f0f0;
-  padding-top: 14px;
-}
-.room-item {
-  font-size: 14px;
-  color: #555;
-  padding: 6px 0;
-  display: flex;
-  align-items: center;
-}
-.room-item::before {
-  content: "•";
-  color: #409eff;
-  font-weight: bold;
-  margin-right: 8px;
-}
-.empty {
-  text-align: center;
-  padding: 30px 0;
-  color: #999;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes">
+    <title>🏨 酒店库存实时监测看板</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+        
+        body {
+            background: #f5f7fb;
+            padding: 20px;
+            min-height: 100vh;
+            color: #1e293b;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        /* 头部样式 */
+        .header {
+            margin-bottom: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            font-weight: 600;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .update-time {
+            background: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 14px;
+            color: #64748b;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .update-time .dot {
+            width: 10px;
+            height: 10px;
+            background: #10b981;
+            border-radius: 50%;
+            display: inline-block;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+        /* 全局概览卡片 */
+        .summary-card {
+            background: linear-gradient(135deg, #1e293b, #334155);
+            border-radius: 24px;
+            padding: 24px;
+            margin-bottom: 32px;
+            color: white;
+            box-shadow: 0 10px 30px -10px rgba(0,0,0,0.3);
+        }
+        
+        .summary-title {
+            font-size: 16px;
+            opacity: 0.8;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+        
+        .summary-item {
+            background: rgba(255,255,255,0.1);
+            padding: 16px;
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .summary-label {
+            font-size: 14px;
+            opacity: 0.7;
+            margin-bottom: 8px;
+        }
+        
+        .summary-value {
+            font-size: 28px;
+            font-weight: 600;
+        }
+        
+        .summary-unit {
+            font-size: 14px;
+            opacity: 0.7;
+            margin-left: 4px;
+        }
+        
+        /* 酒店网格 */
+        .hotel-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        /* 酒店卡片 */
+        .hotel-card {
+            background: white;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .hotel-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 30px -10px rgba(59, 130, 246, 0.2);
+            border-color: #3b82f6;
+        }
+        
+        .hotel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+        
+        .hotel-name {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1e293b;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .hotel-rating {
+            background: #fbbf24;
+            color: #1e293b;
+            padding: 4px 8px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .hotel-id {
+            font-size: 12px;
+            color: #94a3b8;
+            margin-bottom: 12px;
+            font-family: monospace;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin: 16px 0;
+        }
+        
+        .stat-item {
+            background: #f8fafc;
+            padding: 12px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            color: #64748b;
+            margin-bottom: 4px;
+        }
+        
+        .stat-number {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1e293b;
+        }
+        
+        .stat-number small {
+            font-size: 12px;
+            font-weight: normal;
+            color: #94a3b8;
+        }
+        
+        .price-range {
+            background: #f0f9ff;
+            padding: 12px;
+            border-radius: 12px;
+            margin: 12px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .price-tag {
+            font-size: 20px;
+            font-weight: 700;
+            color: #3b82f6;
+        }
+        
+        .avg-price {
+            color: #64748b;
+            font-size: 14px;
+        }
+        
+        .stock-bar {
+            height: 8px;
+            background: #e2e8f0;
+            border-radius: 4px;
+            margin: 12px 0;
+            overflow: hidden;
+        }
+        
+        .stock-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+        
+        .room-list {
+            margin-top: 12px;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 12px;
+        }
+        
+        .room-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            font-size: 14px;
+            border-bottom: 1px dashed #e2e8f0;
+        }
+        
+        .room-item:last-child {
+            border-bottom: none;
+        }
+        
+        .room-name {
+            color: #475569;
+            flex: 1;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .room-price {
+            font-weight: 600;
+            color: #3b82f6;
+            margin: 0 12px;
+        }
+        
+        .room-stock {
+            background: #dcfce7;
+            color: #166534;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        
+        .room-stock.low {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+        
+        .toggle-details {
+            background: none;
+            border: none;
+            color: #3b82f6;
+            font-size: 14px;
+            cursor: pointer;
+            padding: 8px;
+            margin-top: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            border-radius: 8px;
+            transition: background 0.2s;
+        }
+        
+        .toggle-details:hover {
+            background: #f0f9ff;
+        }
+        
+        /* 加载状态 */
+        .loading {
+            text-align: center;
+            padding: 60px;
+            color: #64748b;
+        }
+        
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #e2e8f0;
+            border-top-color: #3b82f6;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 16px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        /* 错误状态 */
+        .error {
+            text-align: center;
+            padding: 60px;
+            color: #ef4444;
+        }
+        
+        /* 刷新按钮 */
+        .refresh-btn {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 30px;
+            padding: 8px 16px;
+            font-size: 14px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+        
+        .refresh-btn:hover {
+            background: #f8fafc;
+            border-color: #3b82f6;
+        }
+        
+        /* 页脚 */
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #94a3b8;
+            font-size: 13px;
+            border-top: 1px solid #e2e8f0;
+        }
+        
+        /* 移动端适配 */
+        @media (max-width: 640px) {
+            body { padding: 12px; }
+            .header h1 { font-size: 22px; }
+            .summary-value { font-size: 22px; }
+            .hotel-grid { grid-template-columns: 1fr; }
+        }
+    </style>
 </head>
-
 <body>
-<div class="container">
-  <div class="header">
-    <h1>🏨 大理酒店房源实时统计</h1>
-    <div class="time">更新时间：2026/3/9 22:43:02</div>
-  </div>
-
-  <div class="total-box">
-    <div class="label">当前可预订总房量</div>
-    <div class="num">0</div>
-  </div>
-
-  
-
-  
-  <div class="hotel-item">
-    <div class="name">大理新棕榈客栈</div>
-    <div class="meta">酒店ID：468916｜剩余可订：0 间</div>
-    <div class="room-list">
-      
+    <div class="container">
+        <div class="header">
+            <h1>
+                <span>🏨</span> 
+                酒店库存实时监测看板
+            </h1>
+            <div class="update-time" id="updateTime">
+                <span class="dot"></span>
+                加载中...
+            </div>
+        </div>
+        
+        <!-- 全局概览会通过JS动态插入 -->
+        <div id="summaryContainer"></div>
+        
+        <!-- 酒店网格 -->
+        <div id="hotelGrid" class="hotel-grid"></div>
+        
+        <!-- 页脚 -->
+        <div class="footer">
+            ⚡ 数据每30分钟自动更新 · 监测酒店 ≤ 10家 · 基于 GitHub Pages
+        </div>
     </div>
-  </div>
-  
-  <div class="hotel-item">
-    <div class="name">大理古城青青客栈</div>
-    <div class="meta">酒店ID：841412｜剩余可订：0 间</div>
-    <div class="room-list">
-      
-    </div>
-  </div>
-  
-  <div class="hotel-item">
-    <div class="name">大理漫晴客栈(大理古城店)</div>
-    <div class="meta">酒店ID：77326591｜剩余可订：0 间</div>
-    <div class="room-list">
-      
-    </div>
-  </div>
-  
 
-</div>
+    <script>
+        // 配置
+        const CONFIG = {
+            dataUrl: 'data/hotels-data.json', // GitHub Pages 数据路径
+            refreshInterval: 30 * 60 * 1000, // 30分钟自动刷新
+            maxHotels: 10
+        };
+
+        // 状态管理
+        let hotelData = null;
+        let expandedCards = new Set();
+
+        // 初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            loadData();
+            // 定时刷新
+            setInterval(loadData, CONFIG.refreshInterval);
+        });
+
+        // 加载数据
+        async function loadData() {
+            try {
+                const response = await fetch(CONFIG.dataUrl + '?t=' + Date.now()); // 防止缓存
+                if (!response.ok) throw new Error('数据加载失败');
+                
+                const data = await response.json();
+                hotelData = data;
+                renderDashboard(data);
+                
+            } catch (error) {
+                console.error('加载失败:', error);
+                renderError(error.message);
+            }
+        }
+
+        // 渲染仪表盘
+        function renderDashboard(data) {
+            renderUpdateTime(data.lastUpdate);
+            renderSummary(data.summary, data.hotels);
+            renderHotelGrid(data.hotels);
+        }
+
+        // 渲染更新时间
+        function renderUpdateTime(timeStr) {
+            const el = document.getElementById('updateTime');
+            if (!el) return;
+            
+            const date = new Date(timeStr);
+            const formatted = date.toLocaleString('zh-CN', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: false
+            });
+            
+            el.innerHTML = `
+                <span class="dot"></span>
+                最后更新: ${formatted}
+            `;
+        }
+
+        // 渲染全局概览
+        function renderSummary(summary, hotels) {
+            const container = document.getElementById('summaryContainer');
+            if (!container) return;
+
+            const availableHotels = hotels.filter(h => h.availableRooms > 0).length;
+            const totalRooms = hotels.reduce((sum, h) => sum + h.rooms, 0);
+            const totalStock = hotels.reduce((sum, h) => sum + h.totalStock, 0);
+            const avgPrice = Math.round(hotels.reduce((sum, h) => sum + h.avgPrice, 0) / hotels.length);
+
+            container.innerHTML = `
+                <div class="summary-card">
+                    <div class="summary-title">
+                        <span>📊</span> 全局概览 (${hotels.length}家酒店)
+                    </div>
+                    <div class="summary-grid">
+                        <div class="summary-item">
+                            <div class="summary-label">可订酒店</div>
+                            <div class="summary-value">${availableHotels}<span class="summary-unit">家</span></div>
+                        </div>
+                        <div class="summary-item">
+                            <div class="summary-label">总房型</div>
+                            <div class="summary-value">${totalRooms}<span class="summary-unit">个</span></div>
+                        </div>
+                        <div class="summary-item">
+                            <div class="summary-label">总库存</div>
+                            <div class="summary-value">${totalStock}<span class="summary-unit">间</span></div>
+                        </div>
+                        <div class="summary-item">
+                            <div class="summary-label">均价</div>
+                            <div class="summary-value">¥${avgPrice}<span class="summary-unit">/晚</span></div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // 渲染酒店网格
+        function renderHotelGrid(hotels) {
+            const grid = document.getElementById('hotelGrid');
+            if (!grid) return;
+
+            grid.innerHTML = hotels.map(hotel => renderHotelCard(hotel)).join('');
+            
+            // 为每个卡片添加点击事件
+            hotels.forEach(hotel => {
+                const btn = document.getElementById(`toggle-${hotel.id}`);
+                if (btn) {
+                    btn.addEventListener('click', () => toggleDetails(hotel.id));
+                }
+            });
+        }
+
+        // 渲染单个酒店卡片
+        function renderHotelCard(hotel) {
+            const isExpanded = expandedCards.has(hotel.id);
+            const stockPercentage = (hotel.totalStock / (hotel.rooms * 5)) * 100; // 假设最大库存是房型的5倍
+            
+            return `
+                <div class="hotel-card">
+                    <div class="hotel-header">
+                        <span class="hotel-name">
+                            🏨 ${hotel.name}
+                            ${hotel.rating ? `<span class="hotel-rating">⭐ ${hotel.rating}</span>` : ''}
+                        </span>
+                    </div>
+                    <div class="hotel-id">ID: ${hotel.id}</div>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-label">房型</div>
+                            <div class="stat-number">${hotel.rooms}<small>个</small></div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">可订</div>
+                            <div class="stat-number">${hotel.availableRooms}<small>个</small></div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">库存</div>
+                            <div class="stat-number">${hotel.totalStock}<small>间</small></div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">均价</div>
+                            <div class="stat-number">¥${hotel.avgPrice}</div>
+                        </div>
+                    </div>
+                    
+                    <div class="price-range">
+                        <span>💰 价格范围</span>
+                        <span class="price-tag">¥${hotel.priceRange}</span>
+                    </div>
+                    
+                    <div class="stock-bar">
+                        <div class="stock-fill" style="width: ${Math.min(stockPercentage, 100)}%"></div>
+                    </div>
+                    
+                    ${isExpanded ? renderRoomList(hotel.rooms) : ''}
+                    
+                    <button class="toggle-details" id="toggle-${hotel.id}">
+                        ${isExpanded ? '▲ 收起房型' : '▼ 查看房型'}
+                    </button>
+                </div>
+            `;
+        }
+
+        // 渲染房型列表
+        function renderRoomList(rooms) {
+            if (!rooms || rooms.length === 0) {
+                return '<div class="room-list">暂无房型数据</div>';
+            }
+
+            return `
+                <div class="room-list">
+                    ${rooms.map(room => `
+                        <div class="room-item">
+                            <span class="room-name" title="${room.name}">${room.name}</span>
+                            <span class="room-price">¥${room.price}</span>
+                            <span class="room-stock ${room.stock === 0 ? 'low' : ''}">${room.stock}间</span>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        // 切换详情显示
+        function toggleDetails(hotelId) {
+            if (expandedCards.has(hotelId)) {
+                expandedCards.delete(hotelId);
+            } else {
+                expandedCards.add(hotelId);
+            }
+            
+            if (hotelData) {
+                renderHotelGrid(hotelData.hotels);
+            }
+        }
+
+        // 渲染错误
+        function renderError(message) {
+            const grid = document.getElementById('hotelGrid');
+            const summary = document.getElementById('summaryContainer');
+            
+            summary.innerHTML = '';
+            grid.innerHTML = `
+                <div class="error">
+                    <div style="font-size: 48px; margin-bottom: 16px;">😵</div>
+                    <h3>数据加载失败</h3>
+                    <p style="color: #64748b; margin-top: 8px;">${message}</p>
+                    <button class="refresh-btn" onclick="location.reload()" style="margin: 20px auto;">
+                        🔄 重试
+                    </button>
+                </div>
+            `;
+        }
+    </script>
 </body>
 </html>
