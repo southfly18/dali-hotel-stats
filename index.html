@@ -404,7 +404,7 @@
         
         <!-- 页脚 -->
         <div class="footer">
-            ⚡ 数据每30分钟自动更新 · 监测酒店 ≤ 10家 · 基于 GitHub Pages
+            ⚡ 数据每4小时自动更新 · 监测酒店 ≤ 10家 · 基于 GitHub Pages
         </div>
     </div>
 
@@ -413,7 +413,7 @@
         // 配置
         const CONFIG = {
             dataUrl: 'data/hotels-data.json', // GitHub Pages 数据路径
-            refreshInterval: 30 * 60 * 1000, // 30分钟自动刷新
+            refreshInterval: 4* 60 * 60 * 1000, // 30分钟自动刷新
             maxHotels: 10
         };
 
@@ -470,32 +470,27 @@
             const container = document.getElementById('summaryContainer');
             if (!container) return;
 
-            const availableHotels = hotels.filter(h => h.availableRooms > 0).length;
-            const totalRooms = hotels.reduce((sum, h) => sum + h.rooms, 0);
-            const totalStock = hotels.reduce((sum, h) => sum + h.totalStock, 0);
-            const avgPrice = Math.round(hotels.reduce((sum, h) => sum + h.avgPrice, 0) / hotels.length);
-
             container.innerHTML = `
                 <div class="summary-card">
                     <div class="summary-title">
-                        <span>📊</span> 全局概览 (${hotels.length}家酒店)
+                        <span>📊</span> 全局概览 (${summary.totalHotels}家酒店)
                     </div>
                     <div class="summary-grid">
                         <div class="summary-item">
                             <div class="summary-label">可订酒店</div>
-                            <div class="summary-value">${availableHotels}<span class="summary-unit">家</span></div>
+                            <div class="summary-value">${summary.availableHotels}<span class="summary-unit">家</span></div>
                         </div>
                         <div class="summary-item">
                             <div class="summary-label">总房型</div>
-                            <div class="summary-value">${totalRooms}<span class="summary-unit">个</span></div>
+                            <div class="summary-value">${summary.totalRooms}<span class="summary-unit">个</span></div>
                         </div>
                         <div class="summary-item">
                             <div class="summary-label">总库存</div>
-                            <div class="summary-value">${totalStock}<span class="summary-unit">间</span></div>
+                            <div class="summary-value">${summary.totalStock}<span class="summary-unit">间</span></div>
                         </div>
                         <div class="summary-item">
                             <div class="summary-label">均价</div>
-                            <div class="summary-value">¥${avgPrice}<span class="summary-unit">/晚</span></div>
+                            <div class="summary-value">¥${summary.avgPrice}<span class="summary-unit">/晚</span></div>
                         </div>
                     </div>
                 </div>
@@ -521,7 +516,7 @@
         // 渲染单个酒店卡片
         function renderHotelCard(hotel) {
             const isExpanded = expandedCards.has(hotel.id);
-            const stockPercentage = (hotel.availableRooms / hotel.rooms) * 100; // 假设最大库存是房型的5倍
+            const stockPercentage = (hotel.dates[0].availableRooms / hotel.rooms) * 100; // 假设最大库存是房型的5倍
             
             return `
                 <div class="hotel-card">
@@ -536,32 +531,32 @@
                     <div class="stats-grid">
                         <div class="stat-item">
                             <div class="stat-label">房型</div>
-                            <div class="stat-number">${hotel.rooms}<small>个</small></div>
+                            <div class="stat-number">${hotel.dates[0].rooms}<small>个</small></div>
                         </div>
                         <div class="stat-item">
                             <div class="stat-label">可订</div>
-                            <div class="stat-number">${hotel.availableRooms}<small>个</small></div>
+                            <div class="stat-number">${hotel.dates[0].availableRooms}<small>个</small></div>
                         </div>
                         <div class="stat-item">
                             <div class="stat-label">库存</div>
-                            <div class="stat-number">${hotel.totalStock}<small>间</small></div>
+                            <div class="stat-number">${hotel.dates[0].totalStock}<small>间</small></div>
                         </div>
                         <div class="stat-item">
                             <div class="stat-label">均价</div>
-                            <div class="stat-number">¥${hotel.avgPrice}</div>
+                            <div class="stat-number">¥${hotel.dates[0].avgPrice}</div>
                         </div>
                     </div>
                     
                     <div class="price-range">
                         <span>💰 价格范围</span>
-                        <span class="price-tag">¥${hotel.priceRange}</span>
+                        <span class="price-tag">¥${hotel.dates[0].priceRange}</span>
                     </div>
                     
                     <div class="stock-bar">
                         <div class="stock-fill" style="width: ${Math.min(stockPercentage, 100)}%"></div>
                     </div>
                     
-                    ${isExpanded ? renderRoomList(hotel.roomDetails) : ''}
+                    ${isExpanded ? renderRoomList(hotel.dates[0].roomDetails) : ''}
                     
                     <button class="toggle-details" id="toggle-${hotel.id}">
                         ${isExpanded ? '▲ 收起房型' : '▼ 查看房型'}
