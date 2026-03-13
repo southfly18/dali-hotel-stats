@@ -527,7 +527,9 @@
                         </span>
                         <div class="hotel-id">ID: ${hotel.id}</div>
                     </div>
-                    
+                    <div class="stock-bar">
+                        <div class="stock-fill" style="width: ${Math.min(stockPercentage, 100)}%"></div>
+                    </div>
                     
                     <div class="stats-grid">
                         <div class="stat-item">
@@ -551,10 +553,6 @@
                     <div class="price-range">
                         <span>💰 价格范围</span>
                         <span class="price-tag">¥${hotel.dates[0].priceRange}</span>
-                    </div>
-                    
-                    <div class="stock-bar">
-                        <div class="stock-fill" style="width: ${Math.min(stockPercentage, 100)}%"></div>
                     </div>
                     
                     ${isExpanded ? renderRoomList(hotel.dates[0].roomDetails) : ''}
