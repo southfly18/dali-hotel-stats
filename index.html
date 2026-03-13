@@ -480,12 +480,12 @@
                             <div class="summary-label">可订酒店</div>
                             <div class="summary-value">${summary.availableHotels}<span class="summary-unit">家</span></div>
                         </div>
-                        <div class="summary-item">
+                        <!-- <div class="summary-item">
                             <div class="summary-label">总房型</div>
                             <div class="summary-value">${summary.totalRooms}<span class="summary-unit">个</span></div>
-                        </div>
+                        </div> -->
                         <div class="summary-item">
-                            <div class="summary-label">总库存</div>
+                            <div class="summary-label">库存</div>
                             <div class="summary-value">${summary.totalStock}<span class="summary-unit">间</span></div>
                         </div>
                         <div class="summary-item">
@@ -516,7 +516,7 @@
         // 渲染单个酒店卡片
         function renderHotelCard(hotel) {
             const isExpanded = expandedCards.has(hotel.id);
-            const stockPercentage = (hotel.dates[0].availableRooms / hotel.rooms) * 100; // 假设最大库存是房型的5倍
+            const stockPercentage = (hotel.dates[0].availableRooms / hotel.dates[0].rooms) * 100; // 假设最大库存是房型的5倍
             
             return `
                 <div class="hotel-card">
