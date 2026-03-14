@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-3-14 18:52:35",
-  "nextUpdate": "2026-3-14 18:23:16",
+  "lastUpdate": "2026-3-14 22:49:33",
+  "nextUpdate": "2026-3-14 21:59:12",
   "summary": {
     "totalHotels": 8,
     "totalDateRanges": 8,
-    "availableHotels": 7,
+    "availableHotels": 6,
     "totalRooms": 71,
-    "totalStock": 34,
-    "avgPrice": 368
+    "totalStock": 31,
+    "avgPrice": 369
   },
   "hotels": [
     {
@@ -19,7 +19,7 @@
           "outDate": "2026-03-15",
           "rooms": 9,
           "availableRooms": 6,
-          "totalStock": 11,
+          "totalStock": 10,
           "priceRange": "140-529",
           "avgPrice": 263,
           "roomDetails": [
@@ -31,7 +31,7 @@
             {
               "name": "庭院双床房",
               "price": 159,
-              "stock": 2
+              "stock": 1
             },
             {
               "name": "精致双床房",
@@ -375,20 +375,15 @@
           "inDate": "2026-03-14",
           "outDate": "2026-03-15",
           "rooms": 8,
-          "availableRooms": 2,
-          "totalStock": 2,
-          "priceRange": "136-338",
-          "avgPrice": 241,
+          "availableRooms": 0,
+          "totalStock": 0,
+          "priceRange": "145-412",
+          "avgPrice": 251,
           "roomDetails": [
             {
               "name": "特惠大床房·【二号庭院】",
-              "price": 136,
-              "stock": 1
-            },
-            {
-              "name": "漫晴优选家庭房",
-              "price": 338,
-              "stock": 1
+              "price": 145,
+              "stock": 0
             },
             {
               "name": "漫晴优选大床房",
@@ -419,6 +414,11 @@
               "name": "漫晴亲子三人间",
               "price": 278,
               "stock": 0
+            },
+            {
+              "name": "漫晴优选家庭房",
+              "price": 412,
+              "stock": 0
             }
           ]
         }
@@ -434,17 +434,17 @@
           "rooms": 12,
           "availableRooms": 2,
           "totalStock": 2,
-          "priceRange": "683-1934",
-          "avgPrice": 1171,
+          "priceRange": "662-1934",
+          "avgPrice": 1168,
           "roomDetails": [
             {
               "name": "安寻·伴山大床房【巨幕投影+马歇尔音响+祖马龙洗护】",
-              "price": 683,
+              "price": 662,
               "stock": 1
             },
             {
               "name": "晴窗·庭院亲子房【云感浴缸+观影巨幕+马歇尔音响】",
-              "price": 781,
+              "price": 758,
               "stock": 1
             },
             {
