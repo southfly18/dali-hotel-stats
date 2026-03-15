@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-3-15 13:35:04",
-  "nextUpdate": "2026-3-15 13:10:35",
+  "lastUpdate": "2026-3-15 16:57:34",
+  "nextUpdate": "2026-3-15 16:36:16",
   "summary": {
     "totalHotels": 8,
     "totalDateRanges": 8,
     "availableHotels": 8,
     "totalRooms": 71,
-    "totalStock": 46,
-    "avgPrice": 347
+    "totalStock": 48,
+    "avgPrice": 345
   },
   "hotels": [
     {
@@ -199,10 +199,10 @@
           "inDate": "2026-03-15",
           "outDate": "2026-03-16",
           "rooms": 9,
-          "availableRooms": 4,
-          "totalStock": 7,
-          "priceRange": "118-243",
-          "avgPrice": 181,
+          "availableRooms": 5,
+          "totalStock": 8,
+          "priceRange": "118-232",
+          "avgPrice": 171,
           "roomDetails": [
             {
               "name": "QQ淡雅大床房",
@@ -217,6 +217,11 @@
             {
               "name": "QQ暖阳阳台休闲大床房（乳胶垫特大悬浮床休闲电脑）",
               "price": 145,
+              "stock": 1
+            },
+            {
+              "name": "QQ暖阳四人间",
+              "price": 148,
               "stock": 1
             },
             {
@@ -242,11 +247,6 @@
             {
               "name": "QQ暖阳休闲双床房（两台休闲电脑）",
               "price": 215,
-              "stock": 0
-            },
-            {
-              "name": "QQ暖阳四人间",
-              "price": 243,
               "stock": 0
             }
           ]
@@ -314,14 +314,14 @@
           "outDate": "2026-03-16",
           "rooms": 9,
           "availableRooms": 4,
-          "totalStock": 4,
+          "totalStock": 5,
           "priceRange": "182-403",
           "avgPrice": 256,
           "roomDetails": [
             {
               "name": "静隅•阳台大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
               "price": 182,
-              "stock": 1
+              "stock": 2
             },
             {
               "name": "精选大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
