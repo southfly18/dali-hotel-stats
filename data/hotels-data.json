@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-3-15 16:57:34",
-  "nextUpdate": "2026-3-15 16:36:16",
+  "lastUpdate": "2026-3-15 20:54:30",
+  "nextUpdate": "2026-3-15 20:21:27",
   "summary": {
     "totalHotels": 8,
     "totalDateRanges": 8,
     "availableHotels": 8,
     "totalRooms": 71,
-    "totalStock": 48,
-    "avgPrice": 345
+    "totalStock": 45,
+    "avgPrice": 346
   },
   "hotels": [
     {
@@ -19,7 +19,7 @@
           "outDate": "2026-03-16",
           "rooms": 9,
           "availableRooms": 6,
-          "totalStock": 12,
+          "totalStock": 11,
           "priceRange": "140-529",
           "avgPrice": 264,
           "roomDetails": [
@@ -36,7 +36,7 @@
             {
               "name": "雅致大床房",
               "price": 175,
-              "stock": 2
+              "stock": 1
             },
             {
               "name": "精致双床房",
@@ -199,20 +199,15 @@
           "inDate": "2026-03-15",
           "outDate": "2026-03-16",
           "rooms": 9,
-          "availableRooms": 5,
-          "totalStock": 8,
+          "availableRooms": 4,
+          "totalStock": 6,
           "priceRange": "118-232",
-          "avgPrice": 171,
+          "avgPrice": 180,
           "roomDetails": [
             {
               "name": "QQ淡雅大床房",
               "price": 118,
               "stock": 3
-            },
-            {
-              "name": "QQ暖阳双床房",
-              "price": 130,
-              "stock": 2
             },
             {
               "name": "QQ暖阳阳台休闲大床房（乳胶垫特大悬浮床休闲电脑）",
@@ -242,6 +237,11 @@
             {
               "name": "QQ暖阳温馨院景大床房（乳胶垫特大悬浮床）",
               "price": 195,
+              "stock": 0
+            },
+            {
+              "name": "QQ暖阳双床房",
+              "price": 214,
               "stock": 0
             },
             {
