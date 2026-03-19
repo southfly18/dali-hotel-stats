@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-3-19 18:47:16",
-  "nextUpdate": "2026-3-19 18:32:12",
+  "lastUpdate": "2026-3-19 22:29:37",
+  "nextUpdate": "2026-3-19 22:04:57",
   "summary": {
     "totalHotels": 8,
     "totalDateRanges": 8,
     "availableHotels": 5,
     "totalRooms": 70,
     "totalStock": 34,
-    "avgPrice": 361
+    "avgPrice": 359
   },
   "hotels": [
     {
@@ -429,32 +429,32 @@
           "rooms": 12,
           "availableRooms": 5,
           "totalStock": 5,
-          "priceRange": "507-1934",
-          "avgPrice": 1082,
+          "priceRange": "490-1934",
+          "avgPrice": 1070,
           "roomDetails": [
             {
               "name": "听溪·池畔大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
-              "price": 507,
+              "price": 490,
               "stock": 1
             },
             {
               "name": "如舍·静谧大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
-              "price": 537,
+              "price": 519,
               "stock": 1
             },
             {
               "name": "禾栖·阳台双床房【观影巨幕+马歇尔音响+祖马龙洗护】",
-              "price": 585,
+              "price": 565,
               "stock": 1
             },
             {
               "name": "亦时书·揽月套房【私享客厅+揽境浴缸+观影巨幕】",
-              "price": 859,
+              "price": 830,
               "stock": 1
             },
             {
               "name": "春生物·伴海双卧套房【揽境浴缸+观影巨幕+戴森风筒】",
-              "price": 1124,
+              "price": 1066,
               "stock": 1
             },
             {
