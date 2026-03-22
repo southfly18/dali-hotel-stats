@@ -1,12 +1,12 @@
 {
-  "lastUpdate": "2026-3-22 18:59:28",
-  "nextUpdate": "2026-3-22 18:42:41",
+  "lastUpdate": "2026-3-22 22:41:51",
+  "nextUpdate": "2026-3-22 22:09:15",
   "summary": {
     "totalHotels": 8,
     "totalDateRanges": 8,
     "availableHotels": 7,
-    "totalRooms": 71,
-    "totalStock": 56,
+    "totalRooms": 70,
+    "totalStock": 55,
     "avgPrice": 365
   },
   "hotels": [
@@ -312,11 +312,11 @@
         {
           "inDate": "2026-03-22",
           "outDate": "2026-03-23",
-          "rooms": 9,
+          "rooms": 8,
           "availableRooms": 6,
           "totalStock": 7,
           "priceRange": "182-477",
-          "avgPrice": 244,
+          "avgPrice": 251,
           "roomDetails": [
             {
               "name": "静隅•阳台大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
@@ -332,11 +332,6 @@
               "name": "归朴•花园双床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
               "price": 185,
               "stock": 1
-            },
-            {
-              "name": "精选大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 185,
-              "stock": 0
             },
             {
               "name": "知予•阳台双床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
@@ -355,7 +350,7 @@
             },
             {
               "name": "山景阳光大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 263,
+              "price": 257,
               "stock": 0
             },
             {
@@ -376,14 +371,14 @@
           "outDate": "2026-03-23",
           "rooms": 8,
           "availableRooms": 3,
-          "totalStock": 6,
+          "totalStock": 5,
           "priceRange": "136-412",
           "avgPrice": 240,
           "roomDetails": [
             {
               "name": "特惠大床房·【二号庭院】",
               "price": 136,
-              "stock": 4
+              "stock": 3
             },
             {
               "name": "韵庭优选大床房（二号庭院）",
@@ -434,22 +429,22 @@
           "rooms": 12,
           "availableRooms": 3,
           "totalStock": 3,
-          "priceRange": "595-1784",
-          "avgPrice": 1257,
+          "priceRange": "585-1784",
+          "avgPrice": 1253,
           "roomDetails": [
             {
               "name": "禾栖·阳台双床房【观影巨幕+马歇尔音响+祖马龙洗护】",
-              "price": 595,
+              "price": 585,
               "stock": 1
             },
             {
               "name": "席上锦·宋时风雅套房【隐逸庭院+国风茶室+揽境浴缸】",
-              "price": 1162,
+              "price": 1142,
               "stock": 1
             },
             {
               "name": "如舍·静谧大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
-              "price": 1190,
+              "price": 1170,
               "stock": 1
             },
             {
