@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-3-26 10:53:47",
-  "nextUpdate": "2026-3-26 04:16:35",
+  "lastUpdate": "2026-3-26 14:36:09",
+  "nextUpdate": "2026-3-26 14:17:33",
   "summary": {
     "totalHotels": 8,
     "totalDateRanges": 8,
     "availableHotels": 8,
     "totalRooms": 71,
     "totalStock": 56,
-    "avgPrice": 376
+    "avgPrice": 377
   },
   "hotels": [
     {
@@ -377,23 +377,18 @@
           "rooms": 8,
           "availableRooms": 2,
           "totalStock": 3,
-          "priceRange": "145-412",
-          "avgPrice": 241,
+          "priceRange": "136-412",
+          "avgPrice": 245,
           "roomDetails": [
             {
-              "name": "漫晴优选双床房",
-              "price": 191,
+              "name": "特惠大床房·【二号庭院】",
+              "price": 136,
               "stock": 1
             },
             {
               "name": "韵庭优选双床房（二号庭院）",
               "price": 191,
               "stock": 2
-            },
-            {
-              "name": "特惠大床房·【二号庭院】",
-              "price": 145,
-              "stock": 0
             },
             {
               "name": "漫晴优选大床房",
@@ -403,6 +398,11 @@
             {
               "name": "韵庭优选大床房（二号庭院）",
               "price": 215,
+              "stock": 0
+            },
+            {
+              "name": "漫晴优选双床房",
+              "price": 233,
               "stock": 0
             },
             {
