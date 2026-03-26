@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-3-26 18:18:46",
-  "nextUpdate": "2026-3-26 18:02:22",
+  "lastUpdate": "2026-3-26 22:01:11",
+  "nextUpdate": "2026-3-26 21:38:11",
   "summary": {
     "totalHotels": 8,
     "totalDateRanges": 8,
     "availableHotels": 8,
     "totalRooms": 71,
-    "totalStock": 55,
-    "avgPrice": 378
+    "totalStock": 54,
+    "avgPrice": 377
   },
   "hotels": [
     {
@@ -376,14 +376,14 @@
           "outDate": "2026-03-27",
           "rooms": 8,
           "availableRooms": 2,
-          "totalStock": 3,
+          "totalStock": 2,
           "priceRange": "136-412",
           "avgPrice": 245,
           "roomDetails": [
             {
               "name": "特惠大床房·【二号庭院】",
               "price": 136,
-              "stock": 2
+              "stock": 1
             },
             {
               "name": "韵庭优选双床房（二号庭院）",
@@ -434,17 +434,17 @@
           "rooms": 12,
           "availableRooms": 2,
           "totalStock": 2,
-          "priceRange": "583-1879",
-          "avgPrice": 1336,
+          "priceRange": "573-1879",
+          "avgPrice": 1334,
           "roomDetails": [
             {
               "name": "如舍·静谧大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
-              "price": 583,
+              "price": 573,
               "stock": 1
             },
             {
               "name": "安寻·伴山大床房【巨幕投影+马歇尔音响+祖马龙洗护】",
-              "price": 693,
+              "price": 681,
               "stock": 1
             },
             {
