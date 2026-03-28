@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-3-28 13:28:57",
-  "nextUpdate": "2026-3-28 12:55:24",
+  "lastUpdate": "2026-3-28 17:11:16",
+  "nextUpdate": "2026-3-28 16:57:02",
   "summary": {
     "totalHotels": 8,
     "totalDateRanges": 8,
     "availableHotels": 8,
     "totalRooms": 71,
-    "totalStock": 48,
-    "avgPrice": 397
+    "totalStock": 45,
+    "avgPrice": 400
   },
   "hotels": [
     {
@@ -313,25 +313,15 @@
           "inDate": "2026-03-28",
           "outDate": "2026-03-29",
           "rooms": 9,
-          "availableRooms": 6,
-          "totalStock": 6,
+          "availableRooms": 4,
+          "totalStock": 4,
           "priceRange": "181-283",
-          "avgPrice": 227,
+          "avgPrice": 249,
           "roomDetails": [
             {
               "name": "精选大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
               "price": 181,
               "stock": 0
-            },
-            {
-              "name": "静隅•阳台大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 182,
-              "stock": 1
-            },
-            {
-              "name": "归朴•花园大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 182,
-              "stock": 1
             },
             {
               "name": "归朴•花园双床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
@@ -362,6 +352,16 @@
               "name": "欢舍•亲子家庭房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
               "price": 283,
               "stock": 0
+            },
+            {
+              "name": "静隅•阳台大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
+              "price": 277,
+              "stock": 0
+            },
+            {
+              "name": "归朴•花园大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
+              "price": 277,
+              "stock": 0
             }
           ]
         }
@@ -376,14 +376,14 @@
           "outDate": "2026-03-29",
           "rooms": 8,
           "availableRooms": 2,
-          "totalStock": 3,
+          "totalStock": 2,
           "priceRange": "136-412",
           "avgPrice": 245,
           "roomDetails": [
             {
               "name": "特惠大床房·【二号庭院】",
               "price": 136,
-              "stock": 2
+              "stock": 1
             },
             {
               "name": "韵庭优选双床房（二号庭院）",
