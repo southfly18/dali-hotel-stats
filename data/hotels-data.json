@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-3-30 14:18:52",
-  "nextUpdate": "2026-3-30 13:39:18",
+  "lastUpdate": "2026-3-30 18:01:26",
+  "nextUpdate": "2026-3-30 17:21:24",
   "summary": {
     "totalHotels": 8,
     "totalDateRanges": 8,
     "availableHotels": 8,
     "totalRooms": 71,
-    "totalStock": 66,
-    "avgPrice": 361
+    "totalStock": 60,
+    "avgPrice": 364
   },
   "hotels": [
     {
@@ -375,19 +375,14 @@
           "inDate": "2026-03-30",
           "outDate": "2026-03-31",
           "rooms": 8,
-          "availableRooms": 6,
-          "totalStock": 13,
-          "priceRange": "136-338",
-          "avgPrice": 219,
+          "availableRooms": 3,
+          "totalStock": 7,
+          "priceRange": "136-412",
+          "avgPrice": 240,
           "roomDetails": [
             {
               "name": "特惠大床房·【二号庭院】",
               "price": 136,
-              "stock": 4
-            },
-            {
-              "name": "韵庭优选大床房（二号庭院）",
-              "price": 176,
               "stock": 4
             },
             {
@@ -396,18 +391,8 @@
               "stock": 2
             },
             {
-              "name": "漫晴亲子三人间",
-              "price": 228,
-              "stock": 1
-            },
-            {
               "name": "假日阳台大床房",
               "price": 236,
-              "stock": 1
-            },
-            {
-              "name": "漫晴优选家庭房",
-              "price": 338,
               "stock": 1
             },
             {
@@ -416,8 +401,23 @@
               "stock": 0
             },
             {
+              "name": "韵庭优选大床房（二号庭院）",
+              "price": 215,
+              "stock": 0
+            },
+            {
               "name": "漫晴优选双床房",
               "price": 233,
+              "stock": 0
+            },
+            {
+              "name": "漫晴亲子三人间",
+              "price": 278,
+              "stock": 0
+            },
+            {
+              "name": "漫晴优选家庭房",
+              "price": 412,
               "stock": 0
             }
           ]
