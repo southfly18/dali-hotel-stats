@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-3-30 21:43:54",
-  "nextUpdate": "2026-3-30 21:30:30",
+  "lastUpdate": "2026-3-31 10:27:12",
+  "nextUpdate": "2026-3-31 01:07:51",
   "summary": {
     "totalHotels": 8,
     "totalDateRanges": 8,
     "availableHotels": 8,
     "totalRooms": 71,
-    "totalStock": 58,
-    "avgPrice": 367
+    "totalStock": 73,
+    "avgPrice": 349
   },
   "hotels": [
     {
@@ -15,8 +15,8 @@
       "name": "大理新棕榈客栈",
       "dates": [
         {
-          "inDate": "2026-03-30",
-          "outDate": "2026-03-31",
+          "inDate": "2026-03-31",
+          "outDate": "2026-04-01",
           "rooms": 9,
           "availableRooms": 9,
           "totalStock": 16,
@@ -36,12 +36,12 @@
             {
               "name": "雅致大床房",
               "price": 175,
-              "stock": 1
+              "stock": 2
             },
             {
               "name": "精致双床房",
               "price": 191,
-              "stock": 3
+              "stock": 2
             },
             {
               "name": "阳光情侣房",
@@ -77,32 +77,32 @@
       "name": "大理静享.如水荷院",
       "dates": [
         {
-          "inDate": "2026-03-30",
-          "outDate": "2026-03-31",
+          "inDate": "2026-03-31",
+          "outDate": "2026-04-01",
           "rooms": 8,
-          "availableRooms": 1,
-          "totalStock": 1,
-          "priceRange": "194-343",
-          "avgPrice": 309,
+          "availableRooms": 3,
+          "totalStock": 3,
+          "priceRange": "205-343",
+          "avgPrice": 285,
           "roomDetails": [
             {
               "name": "简兮庭院大床房",
-              "price": 194,
+              "price": 205,
+              "stock": 1
+            },
+            {
+              "name": "湛露庭院双床房",
+              "price": 219,
+              "stock": 1
+            },
+            {
+              "name": "桃夭之浪漫庭院景观蜜月情侣房",
+              "price": 219,
               "stock": 1
             },
             {
               "name": "蒹葭大床房",
               "price": 303,
-              "stock": 0
-            },
-            {
-              "name": "湛露庭院双床房",
-              "price": 323,
-              "stock": 0
-            },
-            {
-              "name": "桃夭之浪漫庭院景观蜜月情侣房",
-              "price": 323,
               "stock": 0
             },
             {
@@ -134,14 +134,19 @@
       "name": "大理古城洱海门红尘客栈",
       "dates": [
         {
-          "inDate": "2026-03-30",
-          "outDate": "2026-03-31",
+          "inDate": "2026-03-31",
+          "outDate": "2026-04-01",
           "rooms": 9,
-          "availableRooms": 4,
-          "totalStock": 4,
-          "priceRange": "176-309",
-          "avgPrice": 237,
+          "availableRooms": 7,
+          "totalStock": 7,
+          "priceRange": "149-309",
+          "avgPrice": 220,
           "roomDetails": [
+            {
+              "name": "稻香大床房",
+              "price": 149,
+              "stock": 1
+            },
             {
               "name": "兰亭序大床房",
               "price": 176,
@@ -150,6 +155,16 @@
             {
               "name": "东风破标间",
               "price": 176,
+              "stock": 1
+            },
+            {
+              "name": "千里之外双床房",
+              "price": 197,
+              "stock": 1
+            },
+            {
+              "name": "本草纲目标间",
+              "price": 197,
               "stock": 1
             },
             {
@@ -163,11 +178,6 @@
               "stock": 1
             },
             {
-              "name": "稻香大床房",
-              "price": 190,
-              "stock": 0
-            },
-            {
               "name": "迷迭香标间",
               "price": 235,
               "stock": 0
@@ -175,16 +185,6 @@
             {
               "name": "青花瓷大床房",
               "price": 235,
-              "stock": 0
-            },
-            {
-              "name": "千里之外双床房",
-              "price": 250,
-              "stock": 0
-            },
-            {
-              "name": "本草纲目标间",
-              "price": 250,
               "stock": 0
             }
           ]
@@ -196,22 +196,22 @@
       "name": "大理古城青青客栈",
       "dates": [
         {
-          "inDate": "2026-03-30",
-          "outDate": "2026-03-31",
+          "inDate": "2026-03-31",
+          "outDate": "2026-04-01",
           "rooms": 9,
-          "availableRooms": 8,
-          "totalStock": 13,
-          "priceRange": "131-302",
-          "avgPrice": 178,
+          "availableRooms": 9,
+          "totalStock": 14,
+          "priceRange": "132-232",
+          "avgPrice": 166,
           "roomDetails": [
-            {
-              "name": "QQ恣意暖阳榻榻米大床房",
-              "price": 131,
-              "stock": 1
-            },
             {
               "name": "QQ暖阳温馨院景大床房（乳胶垫特大悬浮床）",
               "price": 132,
+              "stock": 1
+            },
+            {
+              "name": "QQ恣意暖阳榻榻米大床房",
+              "price": 137,
               "stock": 1
             },
             {
@@ -240,14 +240,14 @@
               "stock": 1
             },
             {
-              "name": "QQ院景观景两室两卫休闲套房",
-              "price": 232,
+              "name": "QQ儿童乐园四人亲子房（儿童滑滑梯）",
+              "price": 186,
               "stock": 1
             },
             {
-              "name": "QQ儿童乐园四人亲子房（儿童滑滑梯）",
-              "price": 302,
-              "stock": 0
+              "name": "QQ院景观景两室两卫休闲套房",
+              "price": 232,
+              "stock": 1
             }
           ]
         }
@@ -258,14 +258,24 @@
       "name": "大理古城守候客栈",
       "dates": [
         {
-          "inDate": "2026-03-30",
-          "outDate": "2026-03-31",
+          "inDate": "2026-03-31",
+          "outDate": "2026-04-01",
           "rooms": 7,
-          "availableRooms": 4,
-          "totalStock": 4,
-          "priceRange": "182-816",
-          "avgPrice": 348,
+          "availableRooms": 6,
+          "totalStock": 9,
+          "priceRange": "156-816",
+          "avgPrice": 289,
           "roomDetails": [
+            {
+              "name": "守候·云光大床房 ｜实木家具 ｜加湿器｜恒温烧水壶",
+              "price": 156,
+              "stock": 2
+            },
+            {
+              "name": "守候·木隐双床房 ｜实木床｜ 加湿器｜空调｜",
+              "price": 160,
+              "stock": 3
+            },
             {
               "name": "守候·云漫大床房 ｜实木家具｜空调｜加湿器｜",
               "price": 182,
@@ -287,16 +297,6 @@
               "stock": 1
             },
             {
-              "name": "守候·云光大床房 ｜实木家具 ｜加湿器｜恒温烧水壶",
-              "price": 358,
-              "stock": 0
-            },
-            {
-              "name": "守候·木隐双床房 ｜实木床｜ 加湿器｜空调｜",
-              "price": 368,
-              "stock": 0
-            },
-            {
               "name": "守候·漫山大床房 | 实木家具 ｜加湿器 | 空调",
               "price": 816,
               "stock": 0
@@ -310,18 +310,18 @@
       "name": "大理影月客栈(古城店)",
       "dates": [
         {
-          "inDate": "2026-03-30",
-          "outDate": "2026-03-31",
+          "inDate": "2026-03-31",
+          "outDate": "2026-04-01",
           "rooms": 9,
           "availableRooms": 8,
-          "totalStock": 9,
+          "totalStock": 10,
           "priceRange": "182-295",
           "avgPrice": 240,
           "roomDetails": [
             {
               "name": "静隅•阳台大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
               "price": 182,
-              "stock": 2
+              "stock": 3
             },
             {
               "name": "归朴•花园大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
@@ -372,43 +372,43 @@
       "name": "大理漫晴客栈(大理古城店)",
       "dates": [
         {
-          "inDate": "2026-03-30",
-          "outDate": "2026-03-31",
+          "inDate": "2026-03-31",
+          "outDate": "2026-04-01",
           "rooms": 8,
-          "availableRooms": 3,
-          "totalStock": 7,
+          "availableRooms": 6,
+          "totalStock": 10,
           "priceRange": "136-412",
-          "avgPrice": 240,
+          "avgPrice": 225,
           "roomDetails": [
             {
               "name": "特惠大床房·【二号庭院】",
               "price": 136,
-              "stock": 4
+              "stock": 1
+            },
+            {
+              "name": "漫晴优选大床房",
+              "price": 176,
+              "stock": 1
+            },
+            {
+              "name": "韵庭优选大床房（二号庭院）",
+              "price": 176,
+              "stock": 3
+            },
+            {
+              "name": "漫晴优选双床房",
+              "price": 191,
+              "stock": 1
             },
             {
               "name": "韵庭优选双床房（二号庭院）",
               "price": 191,
-              "stock": 2
+              "stock": 3
             },
             {
               "name": "假日阳台大床房",
               "price": 236,
               "stock": 1
-            },
-            {
-              "name": "漫晴优选大床房",
-              "price": 215,
-              "stock": 0
-            },
-            {
-              "name": "韵庭优选大床房（二号庭院）",
-              "price": 215,
-              "stock": 0
-            },
-            {
-              "name": "漫晴优选双床房",
-              "price": 233,
-              "stock": 0
             },
             {
               "name": "漫晴亲子三人间",
@@ -429,62 +429,57 @@
       "name": "山隐·LEISURELY度假酒店",
       "dates": [
         {
-          "inDate": "2026-03-30",
-          "outDate": "2026-03-31",
+          "inDate": "2026-03-31",
+          "outDate": "2026-04-01",
           "rooms": 12,
           "availableRooms": 4,
           "totalStock": 4,
-          "priceRange": "644-1891",
-          "avgPrice": 1141,
+          "priceRange": "576-2034",
+          "avgPrice": 1124,
           "roomDetails": [
             {
-              "name": "安寻·伴山大床房【巨幕投影+马歇尔音响+祖马龙洗护】",
-              "price": 644,
-              "stock": 1
-            },
-            {
               "name": "如舍·静谧大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
-              "price": 644,
+              "price": 576,
               "stock": 1
             },
             {
-              "name": "忘山野·观景双卧套房【揽境浴缸+观影巨幕+戴森风筒】",
-              "price": 967,
+              "name": "竹畔·庭院大床房【私汤泡池+巨幕投影+马歇尔音响】",
+              "price": 672,
               "stock": 1
             },
             {
-              "name": "春生物·伴海双卧套房【揽境浴缸+观影巨幕+戴森风筒】",
-              "price": 1066,
+              "name": "知丘·庭院大床房【轻奢浴缸+观影巨幕+竹林景观】",
+              "price": 743,
               "stock": 1
+            },
+            {
+              "name": "席上锦·宋时风雅套房【隐逸庭院+国风茶室+揽境浴缸】",
+              "price": 1094,
+              "stock": 1
+            },
+            {
+              "name": "云松·庭院大床房【私汤泡池+观影巨幕+马歇尔音响】",
+              "price": 836,
+              "stock": 0
             },
             {
               "name": "听溪·池畔大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
-              "price": 932,
+              "price": 837,
+              "stock": 0
+            },
+            {
+              "name": "安寻·伴山大床房【巨幕投影+马歇尔音响+祖马龙洗护】",
+              "price": 993,
               "stock": 0
             },
             {
               "name": "禾栖·阳台双床房【观影巨幕+马歇尔音响+祖马龙洗护】",
-              "price": 960,
-              "stock": 0
-            },
-            {
-              "name": "云松·庭院大床房【私汤泡池+观影巨幕+马歇尔音响】",
-              "price": 1041,
-              "stock": 0
-            },
-            {
-              "name": "知丘·庭院大床房【轻奢浴缸+观影巨幕+竹林景观】",
-              "price": 1341,
-              "stock": 0
-            },
-            {
-              "name": "竹畔·庭院大床房【私汤泡池+巨幕投影+马歇尔音响】",
-              "price": 1358,
+              "price": 1136,
               "stock": 0
             },
             {
               "name": "晴窗·庭院亲子房【云感浴缸+观影巨幕+马歇尔音响】",
-              "price": 1396,
+              "price": 1426,
               "stock": 0
             },
             {
@@ -493,8 +488,13 @@
               "stock": 0
             },
             {
-              "name": "席上锦·宋时风雅套房【隐逸庭院+国风茶室+揽境浴缸】",
-              "price": 1891,
+              "name": "忘山野·观景双卧套房【揽境浴缸+观影巨幕+戴森风筒】",
+              "price": 1689,
+              "stock": 0
+            },
+            {
+              "name": "春生物·伴海双卧套房【揽境浴缸+观影巨幕+戴森风筒】",
+              "price": 2034,
               "stock": 0
             }
           ]
