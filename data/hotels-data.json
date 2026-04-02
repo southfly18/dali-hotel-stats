@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-4-2 17:56:53",
-  "nextUpdate": "2026-4-2 17:25:42",
+  "lastUpdate": "2026-4-2 21:35:46",
+  "nextUpdate": "2026-4-2 20:58:22",
   "summary": {
     "totalHotels": 9,
     "totalDateRanges": 9,
-    "availableHotels": 7,
+    "availableHotels": 8,
     "totalRooms": 94,
-    "totalStock": 55,
-    "avgPrice": 456
+    "totalStock": 53,
+    "avgPrice": 454
   },
   "hotels": [
     {
@@ -83,7 +83,7 @@
           "availableRooms": 2,
           "totalStock": 2,
           "priceRange": "205-343",
-          "avgPrice": 298,
+          "avgPrice": 296,
           "roomDetails": [
             {
               "name": "蒹葭大床房",
@@ -92,7 +92,7 @@
             },
             {
               "name": "湛露庭院双床房",
-              "price": 219,
+              "price": 208,
               "stock": 1
             },
             {
@@ -262,14 +262,14 @@
           "outDate": "2026-04-03",
           "rooms": 7,
           "availableRooms": 7,
-          "totalStock": 11,
+          "totalStock": 10,
           "priceRange": "147-270",
           "avgPrice": 198,
           "roomDetails": [
             {
               "name": "守候·云光大床房 ｜实木家具 ｜加湿器｜恒温烧水壶",
               "price": 147,
-              "stock": 2
+              "stock": 1
             },
             {
               "name": "守候·木隐双床房 ｜实木床｜ 加湿器｜空调｜",
@@ -315,8 +315,8 @@
           "rooms": 9,
           "availableRooms": 4,
           "totalStock": 4,
-          "priceRange": "286-871",
-          "avgPrice": 630,
+          "priceRange": "270-871",
+          "avgPrice": 628,
           "roomDetails": [
             {
               "name": "精选大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
@@ -340,7 +340,7 @@
             },
             {
               "name": "归朴•花园大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 286,
+              "price": 270,
               "stock": 0
             },
             {
@@ -432,11 +432,16 @@
           "inDate": "2026-04-02",
           "outDate": "2026-04-03",
           "rooms": 12,
-          "availableRooms": 0,
-          "totalStock": 0,
+          "availableRooms": 1,
+          "totalStock": 1,
           "priceRange": "932-2034",
-          "avgPrice": 1443,
+          "avgPrice": 1416,
           "roomDetails": [
+            {
+              "name": "如舍·静谧大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
+              "price": 1474,
+              "stock": 1
+            },
             {
               "name": "听溪·池畔大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
               "price": 932,
@@ -478,11 +483,6 @@
               "stock": 0
             },
             {
-              "name": "如舍·静谧大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
-              "price": 1800,
-              "stock": 0
-            },
-            {
               "name": "忘山野·观景双卧套房【揽境浴缸+观影巨幕+戴森风筒】",
               "price": 1879,
               "stock": 0
@@ -509,21 +509,11 @@
           "inDate": "2026-04-02",
           "outDate": "2026-04-03",
           "rooms": 23,
-          "availableRooms": 5,
-          "totalStock": 5,
+          "availableRooms": 3,
+          "totalStock": 3,
           "priceRange": "408-881",
-          "avgPrice": 649,
+          "avgPrice": 659,
           "roomDetails": [
-            {
-              "name": "风白石溪·两室双卫露台套房",
-              "price": 551,
-              "stock": 1
-            },
-            {
-              "name": "风绿玉溪·两室双卫露台套房",
-              "price": 551,
-              "stock": 1
-            },
             {
               "name": "风隐仙溪·三室庭院套房",
               "price": 731,
@@ -600,6 +590,11 @@
               "stock": 0
             },
             {
+              "name": "风白石溪·两室双卫露台套房",
+              "price": 664,
+              "stock": 0
+            },
+            {
               "name": "月玉局峰·两室双卫露台套房",
               "price": 664,
               "stock": 0
@@ -611,6 +606,11 @@
             },
             {
               "name": "雪芒涌溪·两室双卫露台套房",
+              "price": 664,
+              "stock": 0
+            },
+            {
+              "name": "风绿玉溪·两室双卫露台套房",
               "price": 664,
               "stock": 0
             },
