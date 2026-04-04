@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-4-4 17:53:53",
-  "nextUpdate": "2026-4-4 17:38:32",
+  "lastUpdate": "2026-4-4 21:37:31",
+  "nextUpdate": "2026-4-4 20:59:33",
   "summary": {
     "totalHotels": 9,
     "totalDateRanges": 9,
     "availableHotels": 4,
     "totalRooms": 91,
-    "totalStock": 9,
-    "avgPrice": 507
+    "totalStock": 8,
+    "avgPrice": 508
   },
   "hotels": [
     {
@@ -195,14 +195,14 @@
           "outDate": "2026-04-05",
           "rooms": 9,
           "availableRooms": 1,
-          "totalStock": 2,
-          "priceRange": "185-490",
-          "avgPrice": 297,
+          "totalStock": 1,
+          "priceRange": "228-490",
+          "avgPrice": 302,
           "roomDetails": [
             {
               "name": "QQ暖阳阳台休闲大床房（乳胶垫特大悬浮床休闲电脑）",
-              "price": 185,
-              "stock": 2
+              "price": 228,
+              "stock": 1
             },
             {
               "name": "QQ恣意暖阳榻榻米大床房",
@@ -500,8 +500,8 @@
           "avgPrice": 674,
           "roomDetails": [
             {
-              "name": "风绿玉溪·两室双卫露台套房",
-              "price": 551,
+              "name": "月龙泉峰·两室一卫露台套房",
+              "price": 497,
               "stock": 1
             },
             {
@@ -545,11 +545,6 @@
               "stock": 0
             },
             {
-              "name": "月龙泉峰·两室一卫露台套房",
-              "price": 599,
-              "stock": 0
-            },
-            {
               "name": "雪葶溟溪·两室双卫露台套房",
               "price": 664,
               "stock": 0
@@ -581,6 +576,11 @@
             },
             {
               "name": "雪芒涌溪·两室双卫露台套房",
+              "price": 664,
+              "stock": 0
+            },
+            {
+              "name": "风绿玉溪·两室双卫露台套房",
               "price": 664,
               "stock": 0
             },
