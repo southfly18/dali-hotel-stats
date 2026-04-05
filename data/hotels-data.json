@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-4-5 17:43:31",
-  "nextUpdate": "2026-4-5 17:15:38",
+  "lastUpdate": "2026-4-5 21:26:55",
+  "nextUpdate": "2026-4-5 21:03:55",
   "summary": {
     "totalHotels": 9,
     "totalDateRanges": 9,
     "availableHotels": 7,
     "totalRooms": 93,
-    "totalStock": 40,
-    "avgPrice": 493
+    "totalStock": 38,
+    "avgPrice": 491
   },
   "hotels": [
     {
@@ -18,10 +18,10 @@
           "inDate": "2026-04-05",
           "outDate": "2026-04-06",
           "rooms": 9,
-          "availableRooms": 8,
-          "totalStock": 11,
+          "availableRooms": 6,
+          "totalStock": 9,
           "priceRange": "159-549",
-          "avgPrice": 265,
+          "avgPrice": 276,
           "roomDetails": [
             {
               "name": "庭院大床房",
@@ -34,19 +34,9 @@
               "stock": 2
             },
             {
-              "name": "雅致大床房",
-              "price": 183,
-              "stock": 1
-            },
-            {
               "name": "精致双床房",
               "price": 207,
               "stock": 2
-            },
-            {
-              "name": "阳光情侣房",
-              "price": 215,
-              "stock": 1
             },
             {
               "name": "舒适亲子房",
@@ -62,6 +52,16 @@
               "name": "一房一厅豪华亲子套房",
               "price": 320,
               "stock": 1
+            },
+            {
+              "name": "雅致大床房",
+              "price": 229,
+              "stock": 0
+            },
+            {
+              "name": "阳光情侣房",
+              "price": 269,
+              "stock": 0
             },
             {
               "name": "二房一厅奢华家庭套房",
@@ -201,37 +201,37 @@
           "rooms": 9,
           "availableRooms": 6,
           "totalStock": 7,
-          "priceRange": "197-402",
-          "avgPrice": 262,
+          "priceRange": "162-360",
+          "avgPrice": 243,
           "roomDetails": [
             {
               "name": "QQ恣意暖阳榻榻米大床房",
-              "price": 197,
+              "price": 162,
               "stock": 1
             },
             {
               "name": "QQ暖阳温馨院景大床房（乳胶垫特大悬浮床）",
-              "price": 197,
+              "price": 162,
               "stock": 1
             },
             {
               "name": "QQ暖阳休闲双床房（两台休闲电脑）",
-              "price": 223,
+              "price": 190,
               "stock": 1
             },
             {
               "name": "QQ暖阳阳台休闲大床房（乳胶垫特大悬浮床休闲电脑）",
-              "price": 228,
+              "price": 216,
               "stock": 2
             },
             {
               "name": "QQ儿童乐园四人亲子房（儿童滑滑梯）",
-              "price": 251,
+              "price": 239,
               "stock": 1
             },
             {
               "name": "QQ院景观景两室两卫休闲套房",
-              "price": 402,
+              "price": 360,
               "stock": 1
             },
             {
@@ -316,16 +316,16 @@
           "availableRooms": 5,
           "totalStock": 5,
           "priceRange": "237-777",
-          "avgPrice": 511,
+          "avgPrice": 504,
           "roomDetails": [
             {
-              "name": "山景阳光大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 526,
+              "name": "欢舍•亲子家庭房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
+              "price": 523,
               "stock": 1
             },
             {
-              "name": "欢舍•亲子家庭房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 580,
+              "name": "山景阳光大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
+              "price": 526,
               "stock": 1
             },
             {
