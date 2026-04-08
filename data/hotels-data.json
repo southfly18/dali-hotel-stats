@@ -1,12 +1,12 @@
 {
-  "lastUpdate": "2026-4-8 17:35:30",
-  "nextUpdate": "2026-4-8 17:22:01",
+  "lastUpdate": "2026-4-8 21:01:26",
+  "nextUpdate": "2026-4-8 20:41:44",
   "summary": {
     "totalHotels": 9,
     "totalDateRanges": 9,
     "availableHotels": 8,
     "totalRooms": 94,
-    "totalStock": 73,
+    "totalStock": 70,
     "avgPrice": 386
   },
   "hotels": [
@@ -137,10 +137,10 @@
           "inDate": "2026-04-08",
           "outDate": "2026-04-09",
           "rooms": 9,
-          "availableRooms": 4,
-          "totalStock": 4,
+          "availableRooms": 3,
+          "totalStock": 3,
           "priceRange": "176-320",
-          "avgPrice": 232,
+          "avgPrice": 229,
           "roomDetails": [
             {
               "name": "兰亭序大床房",
@@ -155,11 +155,6 @@
             {
               "name": "本草纲目标间",
               "price": 197,
-              "stock": 1
-            },
-            {
-              "name": "七里香大床房",
-              "price": 309,
               "stock": 1
             },
             {
@@ -180,6 +175,11 @@
             {
               "name": "青花瓷大床房",
               "price": 235,
+              "stock": 0
+            },
+            {
+              "name": "七里香大床房",
+              "price": 290,
               "stock": 0
             },
             {
@@ -313,20 +313,15 @@
           "inDate": "2026-04-08",
           "outDate": "2026-04-09",
           "rooms": 9,
-          "availableRooms": 9,
-          "totalStock": 12,
+          "availableRooms": 8,
+          "totalStock": 11,
           "priceRange": "179-286",
-          "avgPrice": 218,
+          "avgPrice": 223,
           "roomDetails": [
             {
               "name": "静隅•阳台大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
               "price": 179,
               "stock": 3
-            },
-            {
-              "name": "归朴•花园大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 179,
-              "stock": 1
             },
             {
               "name": "精选大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
@@ -362,6 +357,11 @@
               "name": "欢舍•亲子家庭房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
               "price": 286,
               "stock": 2
+            },
+            {
+              "name": "归朴•花园大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
+              "price": 226,
+              "stock": 0
             }
           ]
         }
@@ -375,10 +375,10 @@
           "inDate": "2026-04-08",
           "outDate": "2026-04-09",
           "rooms": 8,
-          "availableRooms": 3,
-          "totalStock": 4,
+          "availableRooms": 2,
+          "totalStock": 3,
           "priceRange": "136-412",
-          "avgPrice": 239,
+          "avgPrice": 244,
           "roomDetails": [
             {
               "name": "特惠大床房·【二号庭院】",
@@ -386,14 +386,14 @@
               "stock": 2
             },
             {
-              "name": "漫晴优选大床房",
-              "price": 176,
-              "stock": 1
-            },
-            {
               "name": "假日阳台大床房",
               "price": 228,
               "stock": 1
+            },
+            {
+              "name": "漫晴优选大床房",
+              "price": 215,
+              "stock": 0
             },
             {
               "name": "韵庭优选大床房（二号庭院）",
@@ -435,16 +435,16 @@
           "availableRooms": 3,
           "totalStock": 3,
           "priceRange": "898-2005",
-          "avgPrice": 1284,
+          "avgPrice": 1282,
           "roomDetails": [
             {
               "name": "晴窗·庭院亲子房【云感浴缸+观影巨幕+马歇尔音响】",
-              "price": 907,
+              "price": 900,
               "stock": 1
             },
             {
               "name": "春生物·伴海双卧套房【揽境浴缸+观影巨幕+戴森风筒】",
-              "price": 1191,
+              "price": 1165,
               "stock": 1
             },
             {
