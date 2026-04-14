@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-4-14 14:45:10",
-  "nextUpdate": "2026-4-14 14:25:31",
+  "lastUpdate": "2026-4-14 18:10:39",
+  "nextUpdate": "2026-4-14 17:54:56",
   "summary": {
     "totalHotels": 9,
     "totalDateRanges": 9,
     "availableHotels": 8,
     "totalRooms": 93,
-    "totalStock": 67,
-    "avgPrice": 411
+    "totalStock": 53,
+    "avgPrice": 424
   },
   "hotels": [
     {
@@ -18,10 +18,10 @@
           "inDate": "2026-04-14",
           "outDate": "2026-04-15",
           "rooms": 8,
-          "availableRooms": 5,
+          "availableRooms": 6,
           "totalStock": 9,
           "priceRange": "140-339",
-          "avgPrice": 223,
+          "avgPrice": 217,
           "roomDetails": [
             {
               "name": "庭院大床房",
@@ -34,24 +34,24 @@
               "stock": 2
             },
             {
+              "name": "雅致大床房",
+              "price": 167,
+              "stock": 1
+            },
+            {
               "name": "精致双床房",
               "price": 183,
-              "stock": 1
+              "stock": 2
             },
             {
               "name": "舒适亲子房",
               "price": 218,
-              "stock": 3
+              "stock": 1
             },
             {
               "name": "二房一厅奢华家庭套房",
               "price": 293,
               "stock": 1
-            },
-            {
-              "name": "雅致大床房",
-              "price": 209,
-              "stock": 0
             },
             {
               "name": "阳光情侣房",
@@ -256,10 +256,10 @@
           "inDate": "2026-04-14",
           "outDate": "2026-04-15",
           "rooms": 7,
-          "availableRooms": 4,
-          "totalStock": 6,
-          "priceRange": "138-498",
-          "avgPrice": 283,
+          "availableRooms": 3,
+          "totalStock": 3,
+          "priceRange": "138-588",
+          "avgPrice": 330,
           "roomDetails": [
             {
               "name": "守候·漫山大床房 | 实木家具 ｜加湿器 | 空调",
@@ -269,16 +269,11 @@
             {
               "name": "守候·木隐双床房 ｜实木床｜ 加湿器｜空调｜",
               "price": 142,
-              "stock": 3
+              "stock": 1
             },
             {
               "name": "守候·不辞大床套房|实木家具｜小冰箱|空调｜",
               "price": 218,
-              "stock": 1
-            },
-            {
-              "name": "守候·悠然家庭套房｜实木家具| 空调| 小冰箱｜",
-              "price": 257,
               "stock": 1
             },
             {
@@ -295,6 +290,11 @@
               "name": "守候·漫纱大床套房 | 实木家具｜空调｜小冰箱｜",
               "price": 498,
               "stock": 0
+            },
+            {
+              "name": "守候·悠然家庭套房｜实木家具| 空调| 小冰箱｜",
+              "price": 588,
+              "stock": 0
             }
           ]
         }
@@ -310,14 +310,9 @@
           "rooms": 9,
           "availableRooms": 6,
           "totalStock": 6,
-          "priceRange": "208-703",
-          "avgPrice": 437,
+          "priceRange": "226-703",
+          "avgPrice": 481,
           "roomDetails": [
-            {
-              "name": "知予•阳台双床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 208,
-              "stock": 1
-            },
             {
               "name": "精选大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
               "price": 447,
@@ -331,6 +326,11 @@
             {
               "name": "欢舍•亲子家庭房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
               "price": 598,
+              "stock": 1
+            },
+            {
+              "name": "知予•阳台双床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
+              "price": 603,
               "stock": 1
             },
             {
@@ -370,45 +370,45 @@
           "inDate": "2026-04-14",
           "outDate": "2026-04-15",
           "rooms": 8,
-          "availableRooms": 7,
-          "totalStock": 13,
+          "availableRooms": 2,
+          "totalStock": 2,
           "priceRange": "136-326",
-          "avgPrice": 201,
+          "avgPrice": 225,
           "roomDetails": [
             {
               "name": "特惠大床房·【二号庭院】",
               "price": 136,
-              "stock": 3
-            },
-            {
-              "name": "漫晴优选大床房",
-              "price": 160,
-              "stock": 2
-            },
-            {
-              "name": "韵庭优选大床房（二号庭院）",
-              "price": 160,
-              "stock": 3
-            },
-            {
-              "name": "漫晴优选双床房",
-              "price": 179,
-              "stock": 1
-            },
-            {
-              "name": "韵庭优选双床房（二号庭院）",
-              "price": 179,
-              "stock": 2
-            },
-            {
-              "name": "假日阳台大床房",
-              "price": 210,
               "stock": 1
             },
             {
               "name": "漫晴优选家庭房",
               "price": 326,
               "stock": 1
+            },
+            {
+              "name": "漫晴优选大床房",
+              "price": 195,
+              "stock": 0
+            },
+            {
+              "name": "韵庭优选大床房（二号庭院）",
+              "price": 195,
+              "stock": 0
+            },
+            {
+              "name": "漫晴优选双床房",
+              "price": 219,
+              "stock": 0
+            },
+            {
+              "name": "韵庭优选双床房（二号庭院）",
+              "price": 219,
+              "stock": 0
+            },
+            {
+              "name": "假日阳台大床房",
+              "price": 256,
+              "stock": 0
             },
             {
               "name": "漫晴亲子三人间",
