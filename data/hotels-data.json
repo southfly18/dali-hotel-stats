@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-4-19 16:49:44",
-  "nextUpdate": "2026-4-19 16:32:02",
+  "lastUpdate": "2026-4-19 20:06:57",
+  "nextUpdate": "2026-4-19 19:49:55",
   "summary": {
     "totalHotels": 9,
     "totalDateRanges": 9,
     "availableHotels": 6,
     "totalRooms": 92,
-    "totalStock": 45,
-    "avgPrice": 432
+    "totalStock": 42,
+    "avgPrice": 440
   },
   "hotels": [
     {
@@ -18,10 +18,10 @@
           "inDate": "2026-04-19",
           "outDate": "2026-04-20",
           "rooms": 9,
-          "availableRooms": 9,
-          "totalStock": 10,
+          "availableRooms": 8,
+          "totalStock": 9,
           "priceRange": "140-295",
-          "avgPrice": 212,
+          "avgPrice": 216,
           "roomDetails": [
             {
               "name": "庭院大床房",
@@ -31,11 +31,6 @@
             {
               "name": "庭院双床房",
               "price": 160,
-              "stock": 1
-            },
-            {
-              "name": "雅致大床房",
-              "price": 168,
               "stock": 1
             },
             {
@@ -67,6 +62,11 @@
               "name": "二房一厅奢华家庭套房",
               "price": 295,
               "stock": 1
+            },
+            {
+              "name": "雅致大床房",
+              "price": 209,
+              "stock": 0
             }
           ]
         }
@@ -261,25 +261,15 @@
           "inDate": "2026-04-19",
           "outDate": "2026-04-20",
           "rooms": 7,
-          "availableRooms": 4,
-          "totalStock": 6,
+          "availableRooms": 2,
+          "totalStock": 4,
           "priceRange": "142-588",
-          "avgPrice": 289,
+          "avgPrice": 356,
           "roomDetails": [
             {
               "name": "守候·木隐双床房 ｜实木床｜ 加湿器｜空调｜",
               "price": 142,
               "stock": 3
-            },
-            {
-              "name": "守候·云光大床房 ｜实木家具 ｜加湿器｜恒温烧水壶",
-              "price": 142,
-              "stock": 1
-            },
-            {
-              "name": "守候·不辞大床套房|实木家具｜小冰箱|空调｜",
-              "price": 218,
-              "stock": 1
             },
             {
               "name": "守候·漫纱大床套房 | 实木家具｜空调｜小冰箱｜",
@@ -292,8 +282,18 @@
               "stock": 0
             },
             {
+              "name": "守候·云光大床房 ｜实木家具 ｜加湿器｜恒温烧水壶",
+              "price": 328,
+              "stock": 0
+            },
+            {
               "name": "守候·云漫大床房 ｜实木家具｜空调｜加湿器｜",
               "price": 398,
+              "stock": 0
+            },
+            {
+              "name": "守候·不辞大床套房|实木家具｜小冰箱|空调｜",
+              "price": 498,
               "stock": 0
             },
             {
