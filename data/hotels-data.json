@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-4-19 10:05:17",
-  "nextUpdate": "2026-4-19 01:15:10",
+  "lastUpdate": "2026-4-19 13:22:49",
+  "nextUpdate": "2026-4-19 13:06:36",
   "summary": {
     "totalHotels": 9,
     "totalDateRanges": 9,
     "availableHotels": 6,
     "totalRooms": 92,
-    "totalStock": 49,
-    "avgPrice": 428
+    "totalStock": 46,
+    "avgPrice": 431
   },
   "hotels": [
     {
@@ -20,8 +20,8 @@
           "rooms": 9,
           "availableRooms": 9,
           "totalStock": 10,
-          "priceRange": "140-314",
-          "avgPrice": 217,
+          "priceRange": "140-295",
+          "avgPrice": 212,
           "roomDetails": [
             {
               "name": "庭院大床房",
@@ -50,12 +50,12 @@
             },
             {
               "name": "舒适亲子房",
-              "price": 233,
+              "price": 219,
               "stock": 2
             },
             {
               "name": "一房一厅豪华亲子套房",
-              "price": 273,
+              "price": 257,
               "stock": 1
             },
             {
@@ -65,7 +65,7 @@
             },
             {
               "name": "二房一厅奢华家庭套房",
-              "price": 314,
+              "price": 295,
               "stock": 1
             }
           ]
@@ -137,10 +137,10 @@
           "inDate": "2026-04-19",
           "outDate": "2026-04-20",
           "rooms": 9,
-          "availableRooms": 4,
-          "totalStock": 4,
+          "availableRooms": 3,
+          "totalStock": 3,
           "priceRange": "148-320",
-          "avgPrice": 233,
+          "avgPrice": 238,
           "roomDetails": [
             {
               "name": "稻香大床房",
@@ -153,14 +153,14 @@
               "stock": 1
             },
             {
-              "name": "东风破标间",
-              "price": 175,
-              "stock": 1
-            },
-            {
               "name": "爷爷泡的茶大床房",
               "price": 308,
               "stock": 1
+            },
+            {
+              "name": "东风破标间",
+              "price": 225,
+              "stock": 0
             },
             {
               "name": "迷迭香标间",
@@ -199,16 +199,11 @@
           "inDate": "2026-04-19",
           "outDate": "2026-04-20",
           "rooms": 9,
-          "availableRooms": 8,
-          "totalStock": 13,
-          "priceRange": "132-471",
-          "avgPrice": 193,
+          "availableRooms": 6,
+          "totalStock": 11,
+          "priceRange": "143-471",
+          "avgPrice": 219,
           "roomDetails": [
-            {
-              "name": "QQ暖阳温馨院景大床房（乳胶垫特大悬浮床）",
-              "price": 132,
-              "stock": 1
-            },
             {
               "name": "QQ恣意暖阳榻榻米大床房",
               "price": 143,
@@ -240,9 +235,14 @@
               "stock": 1
             },
             {
+              "name": "QQ暖阳温馨院景大床房（乳胶垫特大悬浮床）",
+              "price": 243,
+              "stock": 0
+            },
+            {
               "name": "QQ儿童乐园四人亲子房（儿童滑滑梯）",
-              "price": 189,
-              "stock": 1
+              "price": 309,
+              "stock": 0
             },
             {
               "name": "QQ院景观景两室两卫休闲套房",
