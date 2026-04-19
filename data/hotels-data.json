@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-4-19 13:22:49",
-  "nextUpdate": "2026-4-19 13:06:36",
+  "lastUpdate": "2026-4-19 16:49:44",
+  "nextUpdate": "2026-4-19 16:32:02",
   "summary": {
     "totalHotels": 9,
     "totalDateRanges": 9,
     "availableHotels": 6,
     "totalRooms": 92,
-    "totalStock": 46,
-    "avgPrice": 431
+    "totalStock": 45,
+    "avgPrice": 432
   },
   "hotels": [
     {
@@ -499,10 +499,10 @@
           "inDate": "2026-04-19",
           "outDate": "2026-04-20",
           "rooms": 23,
-          "availableRooms": 15,
-          "totalStock": 15,
+          "availableRooms": 14,
+          "totalStock": 14,
           "priceRange": "408-881",
-          "avgPrice": 574,
+          "avgPrice": 581,
           "roomDetails": [
             {
               "name": "风灵泉溪·两室一卫露台套房",
@@ -560,11 +560,6 @@
               "stock": 1
             },
             {
-              "name": "风阳南溪·三居庭院麻将套房",
-              "price": 737,
-              "stock": 1
-            },
-            {
               "name": "风隐仙溪·三室庭院套房",
               "price": 737,
               "stock": 1
@@ -611,6 +606,11 @@
             },
             {
               "name": "月斜阳峰·三室庭院套房",
+              "price": 881,
+              "stock": 0
+            },
+            {
+              "name": "风阳南溪·三居庭院麻将套房",
               "price": 881,
               "stock": 0
             },
