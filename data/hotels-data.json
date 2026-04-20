@@ -1,12 +1,12 @@
 {
-  "lastUpdate": "2026-4-20 09:25:43",
-  "nextUpdate": "2026-4-19 23:10:06",
+  "lastUpdate": "2026-4-20 12:42:25",
+  "nextUpdate": "2026-4-20 12:27:35",
   "summary": {
     "totalHotels": 9,
     "totalDateRanges": 9,
     "availableHotels": 9,
     "totalRooms": 94,
-    "totalStock": 68,
+    "totalStock": 69,
     "avgPrice": 387
   },
   "hotels": [
@@ -314,14 +314,14 @@
           "outDate": "2026-04-21",
           "rooms": 9,
           "availableRooms": 8,
-          "totalStock": 8,
+          "totalStock": 9,
           "priceRange": "179-709",
-          "avgPrice": 336,
+          "avgPrice": 337,
           "roomDetails": [
             {
               "name": "静隅•阳台大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
               "price": 179,
-              "stock": 1
+              "stock": 2
             },
             {
               "name": "归朴•花园大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
@@ -334,8 +334,8 @@
               "stock": 1
             },
             {
-              "name": "知予•阳台双床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 209,
+              "name": "归朴•花园双床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
+              "price": 192,
               "stock": 1
             },
             {
@@ -359,8 +359,8 @@
               "stock": 1
             },
             {
-              "name": "归朴•花园双床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 242,
+              "name": "知予•阳台双床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
+              "price": 263,
               "stock": 0
             }
           ]
