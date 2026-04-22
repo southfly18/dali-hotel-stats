@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-4-22 17:34:14",
-  "nextUpdate": "2026-4-22 17:14:24",
+  "lastUpdate": "2026-4-22 20:57:06",
+  "nextUpdate": "2026-4-22 20:38:29",
   "summary": {
     "totalHotels": 9,
     "totalDateRanges": 9,
     "availableHotels": 9,
     "totalRooms": 91,
-    "totalStock": 63,
-    "avgPrice": 403
+    "totalStock": 62,
+    "avgPrice": 408
   },
   "hotels": [
     {
@@ -308,30 +308,30 @@
           "inDate": "2026-04-22",
           "outDate": "2026-04-23",
           "rooms": 7,
-          "availableRooms": 4,
-          "totalStock": 4,
-          "priceRange": "212-301",
-          "avgPrice": 254,
+          "availableRooms": 3,
+          "totalStock": 3,
+          "priceRange": "226-615",
+          "avgPrice": 307,
           "roomDetails": [
-            {
-              "name": "静隅•阳台大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 212,
-              "stock": 1
-            },
             {
               "name": "知予•阳台双床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
               "price": 247,
               "stock": 1
             },
             {
-              "name": "素居•豪华大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 267,
+              "name": "欢舍•亲子家庭房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
+              "price": 291,
               "stock": 1
             },
             {
-              "name": "欢舍•亲子家庭房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 281,
+              "name": "素居•豪华大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
+              "price": 615,
               "stock": 1
+            },
+            {
+              "name": "静隅•阳台大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
+              "price": 226,
+              "stock": 0
             },
             {
               "name": "归朴•花园大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
@@ -360,20 +360,20 @@
           "inDate": "2026-04-22",
           "outDate": "2026-04-23",
           "rooms": 8,
-          "availableRooms": 1,
+          "availableRooms": 2,
           "totalStock": 2,
-          "priceRange": "145-398",
-          "avgPrice": 231,
+          "priceRange": "137-398",
+          "avgPrice": 230,
           "roomDetails": [
+            {
+              "name": "特惠大床房·【二号庭院】",
+              "price": 137,
+              "stock": 1
+            },
             {
               "name": "韵庭优选双床房（二号庭院）",
               "price": 180,
-              "stock": 2
-            },
-            {
-              "name": "特惠大床房·【二号庭院】",
-              "price": 145,
-              "stock": 0
+              "stock": 1
             },
             {
               "name": "漫晴优选大床房",
@@ -419,17 +419,17 @@
           "rooms": 12,
           "availableRooms": 5,
           "totalStock": 6,
-          "priceRange": "659-2034",
-          "avgPrice": 1248,
+          "priceRange": "635-2034",
+          "avgPrice": 1238,
           "roomDetails": [
             {
               "name": "听溪·池畔大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
-              "price": 659,
+              "price": 635,
               "stock": 1
             },
             {
               "name": "如舍·静谧大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
-              "price": 705,
+              "price": 683,
               "stock": 1
             },
             {
@@ -444,7 +444,7 @@
             },
             {
               "name": "席上锦·宋时风雅套房【隐逸庭院+国风茶室+揽境浴缸】",
-              "price": 1511,
+              "price": 1439,
               "stock": 1
             },
             {
@@ -500,6 +500,11 @@
           "avgPrice": 640,
           "roomDetails": [
             {
+              "name": "雪清碧溪·两室一卫露台套房",
+              "price": 503,
+              "stock": 1
+            },
+            {
               "name": "风灵泉溪·两室一卫露台套房",
               "price": 503,
               "stock": 1
@@ -511,11 +516,6 @@
             },
             {
               "name": "雪霞移溪·两室一卫露台套房",
-              "price": 503,
-              "stock": 1
-            },
-            {
-              "name": "月龙泉峰·两室一卫露台套房",
               "price": 503,
               "stock": 1
             },
@@ -575,12 +575,12 @@
               "stock": 0
             },
             {
-              "name": "雪清碧溪·两室一卫露台套房",
+              "name": "花五台峰·两室一卫露台套房",
               "price": 512,
               "stock": 0
             },
             {
-              "name": "花五台峰·两室一卫露台套房",
+              "name": "月龙泉峰·两室一卫露台套房",
               "price": 512,
               "stock": 0
             },
