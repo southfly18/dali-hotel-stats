@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-4-23 11:42:12",
-  "nextUpdate": "2026-4-23 00:02:26",
+  "lastUpdate": "2026-4-23 15:09:37",
+  "nextUpdate": "2026-4-23 14:50:01",
   "summary": {
     "totalHotels": 9,
     "totalDateRanges": 9,
     "availableHotels": 9,
     "totalRooms": 94,
-    "totalStock": 71,
-    "avgPrice": 407
+    "totalStock": 62,
+    "avgPrice": 408
   },
   "hotels": [
     {
@@ -19,9 +19,9 @@
           "outDate": "2026-04-24",
           "rooms": 9,
           "availableRooms": 6,
-          "totalStock": 9,
+          "totalStock": 8,
           "priceRange": "140-369",
-          "avgPrice": 250,
+          "avgPrice": 242,
           "roomDetails": [
             {
               "name": "庭院大床房",
@@ -40,17 +40,17 @@
             },
             {
               "name": "舒适亲子房",
-              "price": 274,
-              "stock": 2
-            },
-            {
-              "name": "一房一厅豪华亲子套房",
-              "price": 322,
+              "price": 249,
               "stock": 1
             },
             {
               "name": "豪华亲子套房",
-              "price": 323,
+              "price": 289,
+              "stock": 1
+            },
+            {
+              "name": "一房一厅豪华亲子套房",
+              "price": 305,
               "stock": 1
             },
             {
@@ -313,10 +313,10 @@
           "inDate": "2026-04-23",
           "outDate": "2026-04-24",
           "rooms": 9,
-          "availableRooms": 6,
+          "availableRooms": 7,
           "totalStock": 8,
-          "priceRange": "188-293",
-          "avgPrice": 249,
+          "priceRange": "188-292",
+          "avgPrice": 248,
           "roomDetails": [
             {
               "name": "精选大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
@@ -326,7 +326,12 @@
             {
               "name": "静隅•阳台大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
               "price": 212,
-              "stock": 3
+              "stock": 2
+            },
+            {
+              "name": "归朴•花园双床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
+              "price": 227,
+              "stock": 1
             },
             {
               "name": "素居•豪华大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
@@ -345,17 +350,12 @@
             },
             {
               "name": "欢舍•亲子家庭房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 293,
+              "price": 292,
               "stock": 1
             },
             {
               "name": "归朴•花园大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
               "price": 226,
-              "stock": 0
-            },
-            {
-              "name": "归朴•花园双床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 242,
               "stock": 0
             },
             {
@@ -375,21 +375,11 @@
           "inDate": "2026-04-23",
           "outDate": "2026-04-24",
           "rooms": 8,
-          "availableRooms": 6,
-          "totalStock": 11,
-          "priceRange": "137-328",
-          "avgPrice": 206,
+          "availableRooms": 2,
+          "totalStock": 3,
+          "priceRange": "145-398",
+          "avgPrice": 226,
           "roomDetails": [
-            {
-              "name": "特惠大床房·【二号庭院】",
-              "price": 137,
-              "stock": 3
-            },
-            {
-              "name": "韵庭优选大床房（二号庭院）",
-              "price": 160,
-              "stock": 3
-            },
             {
               "name": "漫晴优选双床房",
               "price": 180,
@@ -401,14 +391,9 @@
               "stock": 1
             },
             {
-              "name": "漫晴亲子三人间",
-              "price": 211,
-              "stock": 1
-            },
-            {
-              "name": "漫晴优选家庭房",
-              "price": 328,
-              "stock": 1
+              "name": "特惠大床房·【二号庭院】",
+              "price": 145,
+              "stock": 0
             },
             {
               "name": "漫晴优选大床房",
@@ -416,8 +401,23 @@
               "stock": 0
             },
             {
+              "name": "韵庭优选大床房（二号庭院）",
+              "price": 195,
+              "stock": 0
+            },
+            {
               "name": "假日阳台大床房",
               "price": 256,
+              "stock": 0
+            },
+            {
+              "name": "漫晴亲子三人间",
+              "price": 256,
+              "stock": 0
+            },
+            {
+              "name": "漫晴优选家庭房",
+              "price": 398,
               "stock": 0
             }
           ]
