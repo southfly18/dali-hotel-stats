@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-4-23 18:36:53",
-  "nextUpdate": "2026-4-23 18:15:14",
+  "lastUpdate": "2026-4-23 21:54:07",
+  "nextUpdate": "2026-4-23 21:38:02",
   "summary": {
     "totalHotels": 9,
     "totalDateRanges": 9,
     "availableHotels": 9,
     "totalRooms": 93,
-    "totalStock": 56,
-    "avgPrice": 412
+    "totalStock": 55,
+    "avgPrice": 408
   },
   "hotels": [
     {
@@ -309,7 +309,7 @@
           "outDate": "2026-04-24",
           "rooms": 9,
           "availableRooms": 8,
-          "totalStock": 9,
+          "totalStock": 8,
           "priceRange": "188-292",
           "avgPrice": 246,
           "roomDetails": [
@@ -321,7 +321,7 @@
             {
               "name": "静隅•阳台大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
               "price": 212,
-              "stock": 2
+              "stock": 1
             },
             {
               "name": "归朴•花园大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
@@ -371,14 +371,14 @@
           "outDate": "2026-04-24",
           "rooms": 8,
           "availableRooms": 3,
-          "totalStock": 4,
+          "totalStock": 3,
           "priceRange": "137-398",
           "avgPrice": 225,
           "roomDetails": [
             {
               "name": "特惠大床房·【二号庭院】",
               "price": 137,
-              "stock": 2
+              "stock": 1
             },
             {
               "name": "韵庭优选大床房（二号庭院）",
@@ -427,10 +427,10 @@
           "inDate": "2026-04-23",
           "outDate": "2026-04-24",
           "rooms": 12,
-          "availableRooms": 2,
-          "totalStock": 2,
+          "availableRooms": 3,
+          "totalStock": 3,
           "priceRange": "757-2040",
-          "avgPrice": 1330,
+          "avgPrice": 1290,
           "roomDetails": [
             {
               "name": "如舍·静谧大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
@@ -439,7 +439,12 @@
             },
             {
               "name": "亦时书·揽月套房【私享客厅+揽境浴缸+观影巨幕】",
-              "price": 1163,
+              "price": 1125,
+              "stock": 1
+            },
+            {
+              "name": "春生物·伴海双卧套房【揽境浴缸+观影巨幕+戴森风筒】",
+              "price": 1590,
               "stock": 1
             },
             {
@@ -480,11 +485,6 @@
             {
               "name": "忘山野·观景双卧套房【揽境浴缸+观影巨幕+戴森风筒】",
               "price": 1879,
-              "stock": 0
-            },
-            {
-              "name": "春生物·伴海双卧套房【揽境浴缸+观影巨幕+戴森风筒】",
-              "price": 2034,
               "stock": 0
             },
             {
