@@ -1,12 +1,12 @@
 {
-  "lastUpdate": "2026-4-28 11:09:22",
-  "nextUpdate": "2026-4-28 01:29:37",
+  "lastUpdate": "2026-4-28 14:36:43",
+  "nextUpdate": "2026-4-28 14:18:24",
   "summary": {
     "totalHotels": 9,
     "totalDateRanges": 9,
     "availableHotels": 9,
     "totalRooms": 93,
-    "totalStock": 94,
+    "totalStock": 91,
     "avgPrice": 400
   },
   "hotels": [
@@ -18,20 +18,25 @@
           "inDate": "2026-04-28",
           "outDate": "2026-04-29",
           "rooms": 9,
-          "availableRooms": 7,
-          "totalStock": 13,
+          "availableRooms": 8,
+          "totalStock": 11,
           "priceRange": "140-369",
-          "avgPrice": 249,
+          "avgPrice": 239,
           "roomDetails": [
             {
               "name": "庭院大床房",
               "price": 140,
-              "stock": 2
+              "stock": 1
             },
             {
               "name": "庭院双床房",
               "price": 160,
               "stock": 2
+            },
+            {
+              "name": "雅致大床房",
+              "price": 198,
+              "stock": 1
             },
             {
               "name": "精致双床房",
@@ -45,23 +50,18 @@
             },
             {
               "name": "舒适亲子房",
-              "price": 274,
-              "stock": 3
-            },
-            {
-              "name": "一房一厅豪华亲子套房",
-              "price": 322,
+              "price": 249,
               "stock": 1
             },
             {
               "name": "豪华亲子套房",
-              "price": 323,
+              "price": 289,
               "stock": 1
             },
             {
-              "name": "雅致大床房",
-              "price": 209,
-              "stock": 0
+              "name": "一房一厅豪华亲子套房",
+              "price": 305,
+              "stock": 1
             },
             {
               "name": "二房一厅奢华家庭套房",
@@ -427,16 +427,11 @@
           "inDate": "2026-04-28",
           "outDate": "2026-04-29",
           "rooms": 12,
-          "availableRooms": 4,
-          "totalStock": 4,
+          "availableRooms": 3,
+          "totalStock": 3,
           "priceRange": "790-2034",
-          "avgPrice": 1286,
+          "avgPrice": 1302,
           "roomDetails": [
-            {
-              "name": "安寻·伴山大床房【巨幕投影+马歇尔音响+祖马龙洗护】",
-              "price": 790,
-              "stock": 1
-            },
             {
               "name": "如舍·静谧大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
               "price": 790,
@@ -455,6 +450,11 @@
             {
               "name": "听溪·池畔大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
               "price": 898,
+              "stock": 0
+            },
+            {
+              "name": "安寻·伴山大床房【巨幕投影+马歇尔音响+祖马龙洗护】",
+              "price": 988,
               "stock": 0
             },
             {
