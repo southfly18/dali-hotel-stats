@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-4-29 11:03:21",
-  "nextUpdate": "2026-4-28 21:09:09",
+  "lastUpdate": "2026-4-29 14:30:31",
+  "nextUpdate": "2026-4-29 14:06:27",
   "summary": {
     "totalHotels": 9,
     "totalDateRanges": 9,
     "availableHotels": 9,
     "totalRooms": 93,
-    "totalStock": 91,
-    "avgPrice": 397
+    "totalStock": 88,
+    "avgPrice": 400
   },
   "hotels": [
     {
@@ -21,7 +21,7 @@
           "availableRooms": 8,
           "totalStock": 15,
           "priceRange": "140-369",
-          "avgPrice": 248,
+          "avgPrice": 244,
           "roomDetails": [
             {
               "name": "庭院大床房",
@@ -50,12 +50,12 @@
             },
             {
               "name": "舒适亲子房",
-              "price": 274,
+              "price": 260,
               "stock": 2
             },
             {
               "name": "一房一厅豪华亲子套房",
-              "price": 322,
+              "price": 305,
               "stock": 1
             },
             {
@@ -371,7 +371,7 @@
           "outDate": "2026-04-30",
           "rooms": 8,
           "availableRooms": 4,
-          "totalStock": 9,
+          "totalStock": 8,
           "priceRange": "147-340",
           "avgPrice": 233,
           "roomDetails": [
@@ -383,7 +383,7 @@
             {
               "name": "韵庭优选大床房（二号庭院）",
               "price": 177,
-              "stock": 3
+              "stock": 2
             },
             {
               "name": "韵庭优选双床房（二号庭院）",
@@ -427,15 +427,15 @@
           "inDate": "2026-04-29",
           "outDate": "2026-04-30",
           "rooms": 12,
-          "availableRooms": 5,
-          "totalStock": 7,
+          "availableRooms": 4,
+          "totalStock": 5,
           "priceRange": "742-2034",
-          "avgPrice": 1236,
+          "avgPrice": 1266,
           "roomDetails": [
             {
               "name": "如舍·静谧大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
               "price": 742,
-              "stock": 2
+              "stock": 1
             },
             {
               "name": "安寻·伴山大床房【巨幕投影+马歇尔音响+祖马龙洗护】",
@@ -450,11 +450,6 @@
             {
               "name": "晴窗·庭院亲子房【云感浴缸+观影巨幕+马歇尔音响】",
               "price": 1222,
-              "stock": 1
-            },
-            {
-              "name": "席上锦·宋时风雅套房【隐逸庭院+国风茶室+揽境浴缸】",
-              "price": 1439,
               "stock": 1
             },
             {
@@ -480,6 +475,11 @@
             {
               "name": "知丘·庭院大床房【轻奢浴缸+观影巨幕+竹林景观】",
               "price": 1341,
+              "stock": 0
+            },
+            {
+              "name": "席上锦·宋时风雅套房【隐逸庭院+国风茶室+揽境浴缸】",
+              "price": 1800,
               "stock": 0
             },
             {
