@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026/5/3 10:20:45",
-  "nextUpdate": "2026/5/2 23:54:24",
+  "lastUpdate": "2026/5/3 13:07:52",
+  "nextUpdate": "1970/1/1 08:00:00",
   "summary": {
     "totalHotels": 9,
     "totalDateRanges": 9,
     "availableHotels": 8,
     "totalRooms": 91,
-    "totalStock": 66,
-    "avgPrice": 706
+    "totalStock": 60,
+    "avgPrice": 669
   },
   "hotels": [
     {
@@ -19,14 +19,14 @@
           "outDate": "2026-05-04",
           "rooms": 8,
           "availableRooms": 6,
-          "totalStock": 9,
+          "totalStock": 8,
           "priceRange": "265-789",
           "avgPrice": 398,
           "roomDetails": [
             {
               "name": "庭院大床房",
               "price": 265,
-              "stock": 2
+              "stock": 1
             },
             {
               "name": "庭院双床房",
@@ -77,47 +77,47 @@
           "rooms": 8,
           "availableRooms": 0,
           "totalStock": 0,
-          "priceRange": "480-540",
-          "avgPrice": 513,
+          "priceRange": "470-530",
+          "avgPrice": 503,
           "roomDetails": [
             {
               "name": "简兮庭院大床房",
-              "price": 480,
+              "price": 470,
               "stock": 0
             },
             {
               "name": "蒹葭大床房",
-              "price": 480,
+              "price": 470,
               "stock": 0
             },
             {
               "name": "湛露庭院双床房",
-              "price": 500,
+              "price": 490,
               "stock": 0
             },
             {
               "name": "桃夭之浪漫庭院景观蜜月情侣房",
-              "price": 520,
+              "price": 510,
               "stock": 0
             },
             {
               "name": "月出之雅致景观大床房",
-              "price": 520,
+              "price": 510,
               "stock": 0
             },
             {
               "name": "关雎之温馨景观书香大床房",
-              "price": 520,
+              "price": 510,
               "stock": 0
             },
             {
               "name": "鹤鸣大床房",
-              "price": 540,
+              "price": 530,
               "stock": 0
             },
             {
               "name": "琼琚温馨家庭双床房",
-              "price": 540,
+              "price": 530,
               "stock": 0
             }
           ]
@@ -134,52 +134,52 @@
           "rooms": 9,
           "availableRooms": 2,
           "totalStock": 2,
-          "priceRange": "366-550",
-          "avgPrice": 470,
+          "priceRange": "356-540",
+          "avgPrice": 460,
           "roomDetails": [
             {
               "name": "兰亭序大床房",
-              "price": 366,
+              "price": 356,
               "stock": 1
             },
             {
               "name": "本草纲目标间",
-              "price": 437,
+              "price": 427,
               "stock": 1
             },
             {
               "name": "稻香大床房",
-              "price": 400,
+              "price": 390,
               "stock": 0
             },
             {
               "name": "东风破标间",
-              "price": 450,
+              "price": 440,
               "stock": 0
             },
             {
               "name": "青花瓷大床房",
-              "price": 460,
+              "price": 450,
               "stock": 0
             },
             {
               "name": "迷迭香标间",
-              "price": 500,
+              "price": 490,
               "stock": 0
             },
             {
               "name": "七里香大床房",
-              "price": 520,
+              "price": 510,
               "stock": 0
             },
             {
               "name": "千里之外双床房",
-              "price": 550,
+              "price": 540,
               "stock": 0
             },
             {
               "name": "爷爷泡的茶大床房",
-              "price": 550,
+              "price": 540,
               "stock": 0
             }
           ]
@@ -196,52 +196,52 @@
           "rooms": 9,
           "availableRooms": 7,
           "totalStock": 12,
-          "priceRange": "327-900",
-          "avgPrice": 499,
+          "priceRange": "239-855",
+          "avgPrice": 373,
           "roomDetails": [
             {
-              "name": "QQ暖阳温馨院景大床房（乳胶垫特大悬浮床）",
-              "price": 327,
-              "stock": 1
-            },
-            {
               "name": "QQ淡雅大床房",
-              "price": 389,
+              "price": 239,
               "stock": 3
             },
             {
+              "name": "QQ暖阳温馨院景大床房（乳胶垫特大悬浮床）",
+              "price": 239,
+              "stock": 1
+            },
+            {
               "name": "QQ暖阳休闲双床房（两台休闲电脑）",
-              "price": 421,
+              "price": 258,
               "stock": 1
             },
             {
               "name": "QQ暖阳双床房",
-              "price": 421,
+              "price": 258,
               "stock": 2
             },
             {
               "name": "QQ暖阳阳台休闲大床房（乳胶垫特大悬浮床休闲电脑）",
-              "price": 421,
+              "price": 258,
               "stock": 3
             },
             {
-              "name": "QQ儿童乐园四人亲子房（儿童滑滑梯）",
-              "price": 452,
+              "name": "QQ暖阳四人间",
+              "price": 314,
               "stock": 1
             },
             {
-              "name": "QQ暖阳四人间",
-              "price": 512,
+              "name": "QQ儿童乐园四人亲子房（儿童滑滑梯）",
+              "price": 322,
               "stock": 1
             },
             {
               "name": "QQ恣意暖阳榻榻米大床房",
-              "price": 650,
+              "price": 617,
               "stock": 0
             },
             {
               "name": "QQ院景观景两室两卫休闲套房",
-              "price": 900,
+              "price": 855,
               "stock": 0
             }
           ]
@@ -258,42 +258,42 @@
           "rooms": 7,
           "availableRooms": 6,
           "totalStock": 6,
-          "priceRange": "310-708",
-          "avgPrice": 468,
+          "priceRange": "283-768",
+          "avgPrice": 454,
           "roomDetails": [
             {
               "name": "守候·木隐双床房 ｜实木床｜ 加湿器｜空调｜",
-              "price": 310,
-              "stock": 1
-            },
-            {
-              "name": "守候·漫山大床房 | 实木家具 ｜加湿器 | 空调",
-              "price": 336,
-              "stock": 1
-            },
-            {
-              "name": "守候·云漫大床房 ｜实木家具｜空调｜加湿器｜",
-              "price": 396,
-              "stock": 1
-            },
-            {
-              "name": "守候·漫纱大床套房 | 实木家具｜空调｜小冰箱｜",
-              "price": 460,
-              "stock": 1
-            },
-            {
-              "name": "守候·不辞大床套房|实木家具｜小冰箱|空调｜",
-              "price": 460,
-              "stock": 1
-            },
-            {
-              "name": "守候·悠然家庭套房｜实木家具| 空调| 小冰箱｜",
-              "price": 607,
+              "price": 283,
               "stock": 1
             },
             {
               "name": "守候·云光大床房 ｜实木家具 ｜加湿器｜恒温烧水壶",
-              "price": 708,
+              "price": 309,
+              "stock": 1
+            },
+            {
+              "name": "守候·云漫大床房 ｜实木家具｜空调｜加湿器｜",
+              "price": 369,
+              "stock": 1
+            },
+            {
+              "name": "守候·漫纱大床套房 | 实木家具｜空调｜小冰箱｜",
+              "price": 433,
+              "stock": 1
+            },
+            {
+              "name": "守候·不辞大床套房|实木家具｜小冰箱|空调｜",
+              "price": 433,
+              "stock": 1
+            },
+            {
+              "name": "守候·悠然家庭套房｜实木家具| 空调| 小冰箱｜",
+              "price": 580,
+              "stock": 1
+            },
+            {
+              "name": "守候·漫山大床房 | 实木家具 ｜加湿器 | 空调",
+              "price": 768,
               "stock": 0
             }
           ]
@@ -360,19 +360,14 @@
           "inDate": "2026-05-03",
           "outDate": "2026-05-04",
           "rooms": 8,
-          "availableRooms": 5,
-          "totalStock": 11,
-          "priceRange": "340-757",
-          "avgPrice": 496,
+          "availableRooms": 4,
+          "totalStock": 7,
+          "priceRange": "306-757",
+          "avgPrice": 502,
           "roomDetails": [
             {
               "name": "特惠大床房·【二号庭院】",
-              "price": 340,
-              "stock": 4
-            },
-            {
-              "name": "韵庭优选大床房（二号庭院）",
-              "price": 378,
+              "price": 306,
               "stock": 4
             },
             {
@@ -392,6 +387,11 @@
             },
             {
               "name": "漫晴优选大床房",
+              "price": 458,
+              "stock": 0
+            },
+            {
+              "name": "韵庭优选大床房（二号庭院）",
               "price": 458,
               "stock": 0
             },
@@ -417,69 +417,69 @@
           "inDate": "2026-05-03",
           "outDate": "2026-05-04",
           "rooms": 12,
-          "availableRooms": 4,
-          "totalStock": 5,
-          "priceRange": "742-3374",
-          "avgPrice": 1824,
+          "availableRooms": 3,
+          "totalStock": 4,
+          "priceRange": "610-3036",
+          "avgPrice": 1640,
           "roomDetails": [
             {
               "name": "如舍·静谧大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
-              "price": 742,
+              "price": 610,
               "stock": 1
             },
             {
               "name": "禾栖·阳台双床房【观影巨幕+马歇尔音响+祖马龙洗护】",
-              "price": 850,
+              "price": 649,
               "stock": 2
             },
             {
               "name": "安寻·伴山大床房【巨幕投影+马歇尔音响+祖马龙洗护】",
-              "price": 950,
-              "stock": 1
-            },
-            {
-              "name": "忘山野·观景双卧套房【揽境浴缸+观影巨幕+戴森风筒】",
-              "price": 1635,
+              "price": 748,
               "stock": 1
             },
             {
               "name": "听溪·池畔大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
-              "price": 1137,
+              "price": 1023,
               "stock": 0
             },
             {
               "name": "云松·庭院大床房【私汤泡池+观影巨幕+马歇尔音响】",
-              "price": 1626,
+              "price": 1463,
               "stock": 0
             },
             {
               "name": "知丘·庭院大床房【轻奢浴缸+观影巨幕+竹林景观】",
-              "price": 1816,
+              "price": 1634,
+              "stock": 0
+            },
+            {
+              "name": "忘山野·观景双卧套房【揽境浴缸+观影巨幕+戴森风筒】",
+              "price": 1736,
               "stock": 0
             },
             {
               "name": "竹畔·庭院大床房【私汤泡池+巨幕投影+马歇尔音响】",
-              "price": 2017,
+              "price": 1815,
               "stock": 0
             },
             {
               "name": "亦时书·揽月套房【私享客厅+揽境浴缸+观影巨幕】",
-              "price": 2356,
+              "price": 2120,
               "stock": 0
             },
             {
               "name": "晴窗·庭院亲子房【云感浴缸+观影巨幕+马歇尔音响】",
-              "price": 2525,
+              "price": 2272,
               "stock": 0
             },
             {
               "name": "席上锦·宋时风雅套房【隐逸庭院+国风茶室+揽境浴缸】",
-              "price": 2864,
+              "price": 2577,
               "stock": 0
             },
             {
               "name": "春生物·伴海双卧套房【揽境浴缸+观影巨幕+戴森风筒】",
-              "price": 3374,
+              "price": 3036,
               "stock": 0
             }
           ]
