@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026/5/8 09:13:15",
-  "nextUpdate": "2026/5/8 01:50:01",
+  "lastUpdate": "2026/5/8 12:23:54",
+  "nextUpdate": "2026/5/8 12:13:17",
   "summary": {
     "totalHotels": 9,
     "totalDateRanges": 9,
     "availableHotels": 8,
     "totalRooms": 86,
-    "totalStock": 90,
-    "avgPrice": 315
+    "totalStock": 86,
+    "avgPrice": 324
   },
   "hotels": [
     {
@@ -279,12 +279,12 @@
           "rooms": 8,
           "availableRooms": 8,
           "totalStock": 9,
-          "priceRange": "205-312",
-          "avgPrice": 255,
+          "priceRange": "202-312",
+          "avgPrice": 254,
           "roomDetails": [
             {
               "name": "精选大床房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 205,
+              "price": 202,
               "stock": 1
             },
             {
@@ -309,7 +309,7 @@
             },
             {
               "name": "欢舍•亲子家庭房丨智能卫浴丨HCK冰箱丨零压乳胶床垫",
-              "price": 293,
+              "price": 289,
               "stock": 1
             },
             {
@@ -391,10 +391,10 @@
           "inDate": "2026-05-08",
           "outDate": "2026-05-09",
           "rooms": 12,
-          "availableRooms": 9,
-          "totalStock": 12,
+          "availableRooms": 8,
+          "totalStock": 11,
           "priceRange": "531-1894",
-          "avgPrice": 889,
+          "avgPrice": 933,
           "roomDetails": [
             {
               "name": "如舍·静谧大床房【观影巨幕+马歇尔音响+祖马龙洗护】",
@@ -427,11 +427,6 @@
               "stock": 1
             },
             {
-              "name": "晴窗·庭院亲子房【云感浴缸+观影巨幕+马歇尔音响】",
-              "price": 876,
-              "stock": 1
-            },
-            {
               "name": "忘山野·观景双卧套房【揽境浴缸+观影巨幕+戴森风筒】",
               "price": 976,
               "stock": 1
@@ -452,6 +447,11 @@
               "stock": 0
             },
             {
+              "name": "晴窗·庭院亲子房【云感浴缸+观影巨幕+马歇尔音响】",
+              "price": 1403,
+              "stock": 0
+            },
+            {
               "name": "席上锦·宋时风雅套房【隐逸庭院+国风茶室+揽境浴缸】",
               "price": 1894,
               "stock": 0
@@ -468,10 +468,10 @@
           "inDate": "2026-05-08",
           "outDate": "2026-05-09",
           "rooms": 23,
-          "availableRooms": 17,
-          "totalStock": 17,
+          "availableRooms": 14,
+          "totalStock": 14,
           "priceRange": "382-1013",
-          "avgPrice": 529,
+          "avgPrice": 561,
           "roomDetails": [
             {
               "name": "雪清碧溪·两室一卫露台套房",
@@ -499,11 +499,6 @@
               "stock": 1
             },
             {
-              "name": "月龙泉峰·两室一卫露台套房",
-              "price": 382,
-              "stock": 1
-            },
-            {
               "name": "花弄云峰·两室双卫露台套房",
               "price": 463,
               "stock": 1
@@ -514,17 +509,7 @@
               "stock": 1
             },
             {
-              "name": "月玉局峰·两室双卫露台套房",
-              "price": 463,
-              "stock": 1
-            },
-            {
               "name": "花应乐峰·两室双卫露台套房",
-              "price": 463,
-              "stock": 1
-            },
-            {
-              "name": "雪芒涌溪·两室双卫露台套房",
               "price": 463,
               "stock": 1
             },
@@ -574,12 +559,27 @@
               "stock": 0
             },
             {
+              "name": "月龙泉峰·两室一卫露台套房",
+              "price": 599,
+              "stock": 0
+            },
+            {
               "name": "雪葶溟溪·两室双卫露台套房",
               "price": 726,
               "stock": 0
             },
             {
               "name": "月圣应峰·两室双卫露台套房",
+              "price": 726,
+              "stock": 0
+            },
+            {
+              "name": "月玉局峰·两室双卫露台套房",
+              "price": 726,
+              "stock": 0
+            },
+            {
+              "name": "雪芒涌溪·两室双卫露台套房",
               "price": 726,
               "stock": 0
             },
